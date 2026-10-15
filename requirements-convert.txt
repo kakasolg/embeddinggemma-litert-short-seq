@@ -1,0 +1,4 @@
+# Conversion environment (versions used for the released files)
+litert-torch==0.9.4
+tensorflow-cpu==2.21.0
+torch==2.13.0

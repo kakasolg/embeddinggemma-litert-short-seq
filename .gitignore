@@ -1,0 +1,26 @@
+# Model binaries are distributed as GitHub Release assets, never committed.
+*.tflite
+*.litertlm
+*.task
+*.bin
+*.onnx
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.f32
+*.ids
+
+# Local outputs and caches
+release_assets/
+out/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db

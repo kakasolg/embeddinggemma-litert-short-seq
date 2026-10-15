@@ -1,0 +1,10 @@
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
+
+The model files distributed with this repository as GitHub Release assets
+(embeddinggemma-300m_seq64_q8.tflite, embeddinggemma-300m_seq256_q8.tflite) are Model Derivatives
+of google/embeddinggemma-300m. They were modified by converting the original checkpoint with
+litert-torch 0.9.4 (fixed input lengths of 64 and 256 tokens, dynamic_int8 quantization).
+No weights were retrained or fine-tuned.
+
+Use of these files is subject to the use restrictions in Section 3.2 of the Gemma Terms of Use,
+including the Gemma Prohibited Use Policy: https://ai.google.dev/gemma/prohibited_use_policy
