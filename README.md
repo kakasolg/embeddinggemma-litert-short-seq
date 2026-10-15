@@ -4,7 +4,12 @@ Ask your phone *"how many minutes of free parking at Maple Plaza with validation
 photographed last month, reads the answer and shows the photo it came from. It does this **with no internet
 connection, without uploading a single photo, at zero cost per question.**
 
-<!-- TODO: one GIF here — airplane mode on, ask a question, answer + cited photo appears (step 5 recording, not done yet) -->
+<p align="center"><img src="docs/demo.gif" width="360" alt="The demo app in airplane mode: three questions, each answered with the photo it came from, the last one refused"></p>
+
+<p align="center"><sub>Pixel 11 Pro XL in airplane mode, real time (21.6 s, not sped up). The three questions are the app's
+example chips, picked because they gave the same answer in every run: a Korean question answered from an English sign
+(<b>$18</b>), a negative answer (<b>not refundable</b>), and a question with no answer in the photos (<b>refused</b>).
+Notification icons in the status bar are blanked.</sub></p>
 
 **In one line:** on a Pixel 11 Pro XL in airplane mode, 80 photos and screenshots → **47–49 of 55 questions answered
 correctly with the right photo cited, 5 of 5 "it's not in your photos" questions refused, ~4 s per question,
