@@ -104,8 +104,15 @@ chunk and are scored as missing (`python scripts/eval_public_bench.py chunk 64`)
 
 ## On-device
 
-**Device:** Pixel 11 Pro XL (Tensor G6), LiteRT `Interpreter` from Kotlin, CPU with 4 threads, phone connected
-over USB.
+**Device:** Pixel 11 Pro XL (Tensor G6), LiteRT `Interpreter` from Kotlin, CPU with 4 threads requested, phone
+connected over USB.
+
+> **Measured later (2026-10-15):** on LiteRT 2.1.5 the classic `Interpreter` does not pass the thread count to its
+> XNNPACK delegate, so it runs on one core whatever is requested (a thread monitor on a Galaxy Z Fold4 saw ~0.9 cores busy). `CompiledModel`
+> with `CpuOptions(4 threads)` produced bit-identical vectors and was 1.3–2.8× faster on a Pixel 11 Pro XL and a Galaxy
+> Z Fold4. The table below is left as measured; for an app, use `CompiledModel` (the demo's `EmbeddingGemmaEmbedder.kt`
+> does, with `Interpreter` as a fallback). Absolute Pixel numbers also depend on the CPU group the app runs in — see the
+> README's "Two measurement traps".
 
 **Sample:** 300 texts drawn with seed 20261014 by `scripts/device_public_bench.py prep`:
 - KorSTS and STSBenchmark: 50 pairs each.

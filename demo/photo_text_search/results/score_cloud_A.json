@@ -1,0 +1,2291 @@
+{
+ "summary": {
+  "arm": "A",
+  "model": "models/gemini-flash-latest",
+  "model_version": "gemini-3.8-flash",
+  "n": 60,
+  "answers": {
+   "correct": 55,
+   "cited_gold_answer_mismatch": 0,
+   "wrong_cite": 0,
+   "abstained": 0,
+   "unparsed": 0,
+   "n": 55
+  },
+  "answers_by_type": {
+   "crosslingual": "10/10",
+   "deep": "8/8",
+   "lookup": "12/12",
+   "numeric": "10/10",
+   "paraphrase": "15/15"
+  },
+  "none": {
+   "abstained_ok": 5,
+   "n": 5
+  },
+  "latency_ms": {
+   "p50": 14014.0,
+   "p90": 19032.1,
+   "max": 34608.4
+  },
+  "tokens": {
+   "prompt": 5252610,
+   "output": 1737,
+   "thoughts": 19317,
+   "per_question_prompt": 87544
+  },
+  "bytes": {
+   "upload_once": 7239479,
+   "upload_s": 128.6,
+   "per_question_request_p50": 14780,
+   "request_total": 887062,
+   "response_total": 150479
+  }
+ },
+ "questions": [
+  {
+   "id": "L01",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The Wi-Fi password for Maru Cafe is latte2026.",
+   "accept": [
+    "latte2026"
+   ],
+   "latency_ms": 34608.4,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87722,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     }
+    ],
+    "thoughtsTokenCount": 155,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L02",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The confirmation number for Blue Lantern Bistro is #BL-4821.",
+   "accept": [
+    "BL-4821"
+   ],
+   "latency_ms": 15545.7,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87717,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 152,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L03",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "한빛식당은 10월 9일(금) 한글날에 하루 휴무합니다.",
+   "accept": [
+    "10월 9일",
+    "Oct 9"
+   ],
+   "latency_ms": 15157.5,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 36,
+    "totalTokenCount": 87791,
+    "cachedContentTokenCount": 85492,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 689
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 214,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L04",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "No overnight parking is allowed from 2 AM to 5 AM, and violators will be towed at owner's expense.",
+   "accept": [
+    "2 AM",
+    "2AM"
+   ],
+   "latency_ms": 16782.6,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 87721,
+    "cachedContentTokenCount": 85492,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 687
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 147,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L05",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The card minimum at Kaze Ramen is $10.",
+   "accept": [
+    "$10",
+    "10 dollars"
+   ],
+   "latency_ms": 13586.2,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 87671,
+    "cachedContentTokenCount": 85492,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 687
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 110,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L06",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "용문각의 배달 최소 주문 금액은 $25입니다.",
+   "accept": [
+    "$25",
+    "25달러"
+   ],
+   "latency_ms": 13346.1,
+   "usage": {
+    "promptTokenCount": 87542,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87700,
+    "cachedContentTokenCount": 85493,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 707
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 690
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 133,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L07",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "Starting October 20, Pine Hill Bakery opens at 7 AM.",
+   "accept": [
+    "7 AM",
+    "7AM",
+    "7:00"
+   ],
+   "latency_ms": 11661.8,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87744,
+    "cachedContentTokenCount": 85496,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 692
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84804
+     }
+    ],
+    "thoughtsTokenCount": 175,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L08",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The reservation party size for Ember & Oak Korean BBQ is 6 (Party of 6).",
+   "accept": [
+    "6",
+    "six"
+   ],
+   "latency_ms": 11425.2,
+   "usage": {
+    "promptTokenCount": 87540,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 87747,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 705
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 178,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L09",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The clearance height for Maple Plaza Garage is 6'8\" (2.03 m).",
+   "accept": [
+    "6'8",
+    "2.03"
+   ],
+   "latency_ms": 14354.3,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 87660,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 91,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L10",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "Corner Slice offers happy hour on weekdays only from 3 – 5 PM with $2 off any slice.",
+   "accept": [
+    "3",
+    "$2"
+   ],
+   "latency_ms": 13414.0,
+   "usage": {
+    "promptTokenCount": 87538,
+    "candidatesTokenCount": 34,
+    "totalTokenCount": 87735,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 703
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 163,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L11",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "The deposit paid for the Nami Sushi omakase reservation is $50.",
+   "accept": [
+    "$50"
+   ],
+   "latency_ms": 10408.9,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 87748,
+    "cachedContentTokenCount": 85491,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 689
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84802
+     }
+    ],
+    "thoughtsTokenCount": 178,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "L12",
+   "type": "lookup",
+   "outcome": "correct",
+   "answer": "Level 5 dishes are not refundable.",
+   "accept": [
+    "not refundable",
+    "no refund",
+    "환불 불가"
+   ],
+   "latency_ms": 26009.4,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 87692,
+    "cachedContentTokenCount": 85494,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 689
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 133,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P01",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "You can park for free for the first 90 minutes with validation.",
+   "accept": [
+    "90"
+   ],
+   "latency_ms": 12192.0,
+   "usage": {
+    "promptTokenCount": 87551,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87782,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 716
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 699
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84796
+     }
+    ],
+    "thoughtsTokenCount": 206,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P02",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "You need to be at Ember & Oak Korean BBQ at 6:00 PM on Friday.",
+   "accept": [
+    "6:00",
+    "6 PM",
+    "6PM"
+   ],
+   "latency_ms": 11269.6,
+   "usage": {
+    "promptTokenCount": 87549,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 87801,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 714
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 697
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84798
+     }
+    ],
+    "thoughtsTokenCount": 222,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P03",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "You can stay for a maximum of 4 hours while charging, and the vehicle must be moved when charging is complete.",
+   "accept": [
+    "4 hour",
+    "4시간"
+   ],
+   "latency_ms": 11504.2,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 34,
+    "totalTokenCount": 87869,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84802
+     }
+    ],
+    "thoughtsTokenCount": 290,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P04",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "The Wi-Fi network is MARU_GUEST and the password is latte2026.",
+   "accept": [
+    "MARU_GUEST",
+    "latte2026"
+   ],
+   "latency_ms": 13908.3,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 87754,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 178,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P05",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "Yes, you can bring wine for a corkage fee of $20 per bottle, with a limit of 2 bottles per table.",
+   "accept": [
+    "$20"
+   ],
+   "latency_ms": 11544.6,
+   "usage": {
+    "promptTokenCount": 87549,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 87803,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 714
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 697
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84802
+     }
+    ],
+    "thoughtsTokenCount": 216,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P06",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "No, the pho place is closed on Thanksgiving Day.",
+   "accept": [
+    "closed",
+    "휴무"
+   ],
+   "latency_ms": 13741.6,
+   "usage": {
+    "promptTokenCount": 87542,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 87781,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 707
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 218,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P07",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "Maple Plaza Garage has a clearance of 6'8\" (2.03 m), but whether your truck is too tall cannot be confirmed because your truck's height is not provided.",
+   "accept": [
+    "6'8",
+    "2.03"
+   ],
+   "latency_ms": 28476.8,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 49,
+    "totalTokenCount": 89795,
+    "cachedContentTokenCount": 85496,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 2201,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P08",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "You can pick up your order on Sat, Oct 31 at 8:00 AM.",
+   "accept": [
+    "8:00",
+    "8 AM",
+    "Oct 31"
+   ],
+   "latency_ms": 14999.2,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 87871,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 295,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P09",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "The estimated wait time to get a seat is 25 minutes.",
+   "accept": [
+    "25"
+   ],
+   "latency_ms": 12650.2,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87678,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 106,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P10",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "You should show up at 8:00 PM on Saturday, November 7.",
+   "accept": [
+    "8:00",
+    "8 PM"
+   ],
+   "latency_ms": 15711.3,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 28,
+    "totalTokenCount": 87979,
+    "cachedContentTokenCount": 85500,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 405,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P11",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "남긴 고기 1인분당 $10.00가 부과됩니다.",
+   "accept": [
+    "$10",
+    "10.00",
+    "10달러"
+   ],
+   "latency_ms": 11292.1,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 32,
+    "totalTokenCount": 87724,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 147,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P12",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "엠버앤오크에서 생일 당일 방문 시 디저트를 무료로 제공합니다.",
+   "accept": [
+    "디저트",
+    "dessert"
+   ],
+   "latency_ms": 13970.7,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 87747,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 171,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P13",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "중국집 배달비는 $4.99입니다.",
+   "accept": [
+    "4.99"
+   ],
+   "latency_ms": 21556.3,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 88262,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 689,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P14",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "24시 이후에는 출차가 불가하므로 24시 전에 차를 빼야 합니다.",
+   "accept": [
+    "24",
+    "자정",
+    "midnight"
+   ],
+   "latency_ms": 17435.9,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 34,
+    "totalTokenCount": 88070,
+    "cachedContentTokenCount": 85500,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 490,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "P15",
+   "type": "paraphrase",
+   "outcome": "correct",
+   "answer": "순두부집의 브레이크 타임(쉬는 시간)은 15:00 – 17:00입니다.",
+   "accept": [
+    "15:00",
+    "3시",
+    "3 PM"
+   ],
+   "latency_ms": 12721.0,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 87780,
+    "cachedContentTokenCount": 85500,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 193,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C01",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "메이플 플라자 주차의 하루 최대 요금은 $18입니다.",
+   "accept": [
+    "$18",
+    "18달러"
+   ],
+   "latency_ms": 12223.6,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 87715,
+    "cachedContentTokenCount": 85500,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 140,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C02",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "블루 랜턴 예약 인원은 4명(Party of 4)입니다.",
+   "accept": [
+    "4",
+    "four"
+   ],
+   "latency_ms": 14950.4,
+   "usage": {
+    "promptTokenCount": 87542,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87737,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 707
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 168,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C03",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "아기 의자(High chair)를 요청한 Sunny Side Diner의 예약 시간은 9:00 AM입니다.",
+   "accept": [
+    "9:00",
+    "9 AM",
+    "오전 9"
+   ],
+   "latency_ms": 15377.8,
+   "usage": {
+    "promptTokenCount": 87549,
+    "candidatesTokenCount": 40,
+    "totalTokenCount": 88148,
+    "cachedContentTokenCount": 85496,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 714
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 697
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84799
+     }
+    ],
+    "thoughtsTokenCount": 559,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C04",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "매운맛 5단계 요리는 환불되지 않습니다(Level 5 dishes are not refundable).",
+   "accept": [
+    "not refundable",
+    "환불 안",
+    "환불 불가",
+    "안 돼"
+   ],
+   "latency_ms": 13658.2,
+   "usage": {
+    "promptTokenCount": 87549,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 87780,
+    "cachedContentTokenCount": 85503,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 714
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 697
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 200,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C05",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "카페 와이파이 이름은 MARU_GUEST입니다.",
+   "accept": [
+    "MARU_GUEST"
+   ],
+   "latency_ms": 13970.1,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87703,
+    "cachedContentTokenCount": 85496,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 692
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84804
+     }
+    ],
+    "thoughtsTokenCount": 133,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C06",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "No, pets are not allowed indoors and are only permitted on terrace seats.",
+   "accept": [
+    "terrace",
+    "테라스"
+   ],
+   "latency_ms": 16843.9,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87863,
+    "cachedContentTokenCount": 85498,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 293,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C07",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "Parking is free for 2 hours with a receipt.",
+   "accept": [
+    "2 hour",
+    "2시간"
+   ],
+   "latency_ms": 8262.6,
+   "usage": {
+    "promptTokenCount": 87547,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 87752,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 712
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 695
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84804
+     }
+    ],
+    "thoughtsTokenCount": 184,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C08",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "Hanbit Kitchen is closed on October 9 (Friday) for Hangul Day.",
+   "accept": [
+    "10월 9일",
+    "Oct 9",
+    "October 9"
+   ],
+   "latency_ms": 16972.5,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87836,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 265,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C09",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "Your Hanbit Kitchen reservation is for 3 people.",
+   "accept": [
+    "3",
+    "three"
+   ],
+   "latency_ms": 15642.4,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 87962,
+    "cachedContentTokenCount": 85498,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 396,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "C10",
+   "type": "crosslingual",
+   "outcome": "correct",
+   "answer": "The delivery fee at Dragon Gate is $4.99.",
+   "accept": [
+    "4.99"
+   ],
+   "latency_ms": 19032.1,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 88289,
+    "cachedContentTokenCount": 85498,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 692
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 719,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N01",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The price of a Misugaru Latte at Maru Cafe is $6.25.",
+   "accept": [
+    "6.25"
+   ],
+   "latency_ms": 13726.9,
+   "usage": {
+    "promptTokenCount": 87543,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 87768,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 708
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 192,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N02",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "용문각의 탕수육 (대) 가격은 $28.99입니다.",
+   "accept": [
+    "28.99"
+   ],
+   "latency_ms": 14332.7,
+   "usage": {
+    "promptTokenCount": 87543,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 87770,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 708
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 691
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 196,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N03",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "At Ember & Oak, the dinner all-you-can-eat price is $36.99 for Dinner A and $46.99 for Premium.",
+   "accept": [
+    "36.99"
+   ],
+   "latency_ms": 17646.4,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 88130,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 539,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N04",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The total on your Hanbit Kitchen receipt was $49.68.",
+   "accept": [
+    "49.68"
+   ],
+   "latency_ms": 12954.6,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87739,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84804
+     }
+    ],
+    "thoughtsTokenCount": 168,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N05",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "You left a tip of $3.50 at Maru Cafe.",
+   "accept": [
+    "3.50"
+   ],
+   "latency_ms": 15201.8,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87775,
+    "cachedContentTokenCount": 85499,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 203,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N06",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The price of an Al Pastor Taco at La Brisa is $3.75.",
+   "accept": [
+    "3.75"
+   ],
+   "latency_ms": 15304.8,
+   "usage": {
+    "promptTokenCount": 87542,
+    "candidatesTokenCount": 28,
+    "totalTokenCount": 87937,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 707
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 367,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N07",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The total for the Hilltop Burgers pickup order is $28.74.",
+   "accept": [
+    "28.74"
+   ],
+   "latency_ms": 15994.5,
+   "usage": {
+    "promptTokenCount": 87542,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 88163,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 707
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 690
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 590,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N08",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The EV charging price is $0.35 per kWh.",
+   "accept": [
+    "0.35"
+   ],
+   "latency_ms": 14647.6,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87714,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 150,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N09",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "The tax on the Blue Lantern brunch receipt was $5.70.",
+   "accept": [
+    "5.70"
+   ],
+   "latency_ms": 14023.6,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87859,
+    "cachedContentTokenCount": 85493,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84800
+     }
+    ],
+    "thoughtsTokenCount": 289,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "N10",
+   "type": "numeric",
+   "outcome": "correct",
+   "answer": "서울분식의 김밥은 $7.99입니다.",
+   "accept": [
+    "7.99"
+   ],
+   "latency_ms": 13048.2,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 87716,
+    "cachedContentTokenCount": 85492,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 689
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 151,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D01",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "The Black Sesame Affogato at Maru Cafe is $7.75.",
+   "accept": [
+    "7.75"
+   ],
+   "latency_ms": 13680.6,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87868,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 692
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84803
+     }
+    ],
+    "thoughtsTokenCount": 297,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D02",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "소라 순두부의 굴 순두부(계절 한정) 가격은 $18.99입니다.",
+   "accept": [
+    "18.99"
+   ],
+   "latency_ms": 14014.0,
+   "usage": {
+    "promptTokenCount": 87545,
+    "candidatesTokenCount": 37,
+    "totalTokenCount": 87687,
+    "cachedContentTokenCount": 85498,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 710
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 693
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 105,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D03",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "Duck Confit Hash at Blue Lantern Bistro is $24.00.",
+   "accept": [
+    "24"
+   ],
+   "latency_ms": 13151.3,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87714,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 146,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D04",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "엠버앤오크의 차돌박이 추가 가격은 $12.99입니다.",
+   "accept": [
+    "12.99"
+   ],
+   "latency_ms": 14324.3,
+   "usage": {
+    "promptTokenCount": 87546,
+    "candidatesTokenCount": 32,
+    "totalTokenCount": 87766,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 711
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 694
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84801
+     }
+    ],
+    "thoughtsTokenCount": 188,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D05",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "용문각의 삼선짬뽕은 $16.99입니다.",
+   "accept": [
+    "16.99"
+   ],
+   "latency_ms": 13319.2,
+   "usage": {
+    "promptTokenCount": 87543,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 87815,
+    "cachedContentTokenCount": 85495,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 708
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 691
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84804
+     }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D06",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "The price of Yuzu Shio Ramen at Kaze Ramen is $17.50.",
+   "accept": [
+    "17.50",
+    "17.5"
+   ],
+   "latency_ms": 11461.7,
+   "usage": {
+    "promptTokenCount": 87543,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 87896,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 708
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 691
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 323,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D07",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "Khao Soi Chicken at Siam Garden is $17.95.",
+   "accept": [
+    "17.95"
+   ],
+   "latency_ms": 12518.1,
+   "usage": {
+    "promptTokenCount": 87543,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 87830,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 708
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 691
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84806
+     }
+    ],
+    "thoughtsTokenCount": 262,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "D08",
+   "type": "deep",
+   "outcome": "correct",
+   "answer": "다온 찻집의 오미자차 가격은 $6.50입니다.",
+   "accept": [
+    "6.50",
+    "6.5"
+   ],
+   "latency_ms": 10362.9,
+   "usage": {
+    "promptTokenCount": 87544,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 87705,
+    "cachedContentTokenCount": 85497,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 709
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 692
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 132,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "A01",
+   "type": "none",
+   "outcome": "abstained_ok",
+   "answer": "There is no information provided about the Wi-Fi password for Hanbit Kitchen.",
+   "accept": [],
+   "latency_ms": 13909.0,
+   "usage": {
+    "promptTokenCount": 87541,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 87886,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 706
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 321,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "A02",
+   "type": "none",
+   "outcome": "abstained_ok",
+   "answer": "The provided photos do not contain information on whether Corner Slice validates parking.",
+   "accept": [],
+   "latency_ms": 14450.4,
+   "usage": {
+    "promptTokenCount": 87540,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 88113,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 705
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 552,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "A03",
+   "type": "none",
+   "outcome": "abstained_ok",
+   "answer": "There is no information about the corkage fee for Nami Sushi in the provided photos.",
+   "accept": [],
+   "latency_ms": 14654.9,
+   "usage": {
+    "promptTokenCount": 87540,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 87848,
+    "cachedContentTokenCount": 85493,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 705
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 688
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 282,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "A04",
+   "type": "none",
+   "outcome": "abstained_ok",
+   "answer": "제공된 사진에는 서울분식의 예약 번호에 대한 정보가 나와 있지 않습니다.",
+   "accept": [],
+   "latency_ms": 25730.5,
+   "usage": {
+    "promptTokenCount": 87540,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 89398,
+    "cachedContentTokenCount": 85493,
+    "promptTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     },
+     {
+      "modality": "TEXT",
+      "tokenCount": 705
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 688
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 84805
+     }
+    ],
+    "thoughtsTokenCount": 1831,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "A05",
+   "type": "none",
+   "outcome": "abstained_ok",
+   "answer": "There is no information about happy hour for Moonrise Donuts in the provided photos.",
+   "accept": [],
+   "latency_ms": 18802.8,
+   "usage": {
+    "promptTokenCount": 87539,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 88438,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 704
+     },
+     {
+      "modality": "IMAGE",
+      "tokenCount": 86835
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "IMAGE",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 875,
+    "serviceTier": "standard"
+   }
+  }
+ ]
+}

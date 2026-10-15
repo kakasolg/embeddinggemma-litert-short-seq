@@ -1,0 +1,1693 @@
+[
+ {
+  "id": "m01",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "ko+en",
+  "size": [
+   900,
+   1746
+  ],
+  "lines": [
+   "한빛식당 Hanbit Kitchen",
+   "Korean home cooking · 한식",
+   "김치찌개 Kimchi Jjigae $16.99",
+   "된장찌개 Doenjang Jjigae $15.99",
+   "순두부찌개 Soft Tofu Stew $16.49",
+   "제육볶음 Spicy Pork $18.99",
+   "불고기 Bulgogi $22.99",
+   "갈비탕 Galbi-tang $19.99",
+   "비빔밥 Bibimbap $15.99",
+   "돌솥비빔밥 Stone Pot Bibimbap $17.49",
+   "물냉면 Cold Noodles $15.49",
+   "떡볶이 Tteokbokki $13.99",
+   "해물파전 Seafood Pancake $19.49",
+   "김치전 Kimchi Pancake $14.99",
+   "잡채 Japchae $16.99",
+   "고등어구이 Grilled Mackerel $18.49",
+   "육개장 Yukgaejang $17.99",
+   "감자탕 (2인) Pork Bone Stew for 2 $42.00",
+   "공기밥 Rice $2.50"
+  ]
+ },
+ {
+  "id": "m02",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "en+ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Maru Cafe 마루카페",
+   "Coffee · Tea · Desserts",
+   "Americano $4.25",
+   "Cafe Latte $5.25",
+   "Vanilla Latte $5.75",
+   "Cold Brew $5.00",
+   "Misugaru Latte 미숫가루 라떼 $6.25",
+   "Yuja Tea 유자차 $5.50",
+   "Jujube Tea 대추차 $5.75",
+   "Matcha Latte $6.00",
+   "Hojicha Latte $6.00",
+   "Strawberry Milk $6.50",
+   "Injeolmi Bingsu 인절미 빙수 $13.50",
+   "Mango Bingsu $14.00",
+   "Matcha Cheesecake $7.25",
+   "Croffle $6.75",
+   "Butter Bar $4.50",
+   "Black Sesame Affogato $7.75"
+  ]
+ },
+ {
+  "id": "m03",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "소라 순두부",
+   "순두부 전문 · 매운맛 0~5단계",
+   "기본 순두부 $15.99",
+   "해물 순두부 $17.49",
+   "소고기 순두부 $16.99",
+   "돼지고기 순두부 $16.49",
+   "버섯 순두부 $15.99",
+   "햄 치즈 순두부 $16.49",
+   "만두 순두부 $16.49",
+   "김치 순두부 $15.99",
+   "순두부 + 갈비 콤보 $27.99",
+   "순두부 + 불고기 콤보 $25.99",
+   "순두부 + 고등어 콤보 $24.99",
+   "계란 추가 $1.00",
+   "공기밥 추가 $2.50",
+   "굴 순두부 (계절 한정) $18.99"
+  ]
+ },
+ {
+  "id": "m04",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Blue Lantern Bistro",
+   "Brunch · Sat & Sun 9 AM – 3 PM",
+   "Classic Eggs Benedict $18.00",
+   "Crab Cake Benedict $24.00",
+   "Avocado Toast $15.00",
+   "Buttermilk Pancakes $14.00",
+   "Brioche French Toast $16.00",
+   "Shakshuka $17.00",
+   "Steak & Eggs $29.00",
+   "Smoked Salmon Bagel $19.00",
+   "Kale Caesar $14.00",
+   "Burrata & Peaches $18.00",
+   "Mimosa $12.00",
+   "Fresh Orange Juice $7.00",
+   "Seasonal Fruit Bowl $11.00",
+   "Duck Confit Hash $24.00"
+  ]
+ },
+ {
+  "id": "m05",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en+ko",
+  "size": [
+   1400,
+   1054
+  ],
+  "lines": [
+   "Pine Hill Bakery 파인힐 베이커리",
+   "Fresh daily",
+   "Salt Bread 소금빵 $3.95",
+   "Milk Bread Loaf $8.50",
+   "Croissant $4.25",
+   "Pain au Chocolat $4.75",
+   "Cream Cheese Garlic Bread $6.95",
+   "Sweet Potato Bread $5.25",
+   "Red Bean Butter Bun $4.75"
+  ]
+ },
+ {
+  "id": "m06",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   1146
+  ],
+  "lines": [
+   "La Brisa Tacos",
+   "Street tacos · corn tortillas",
+   "Al Pastor Taco $3.75",
+   "Carne Asada Taco $4.00",
+   "Chicken Taco $3.50",
+   "Carnitas Taco $3.75",
+   "Fish Taco $4.50",
+   "Elote $5.00",
+   "Horchata $4.00",
+   "Birria Quesataco $5.50"
+  ]
+ },
+ {
+  "id": "m07",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Kaze Ramen",
+   "Tonkotsu · Shoyu · Shio",
+   "Tonkotsu Ramen $16.50",
+   "Spicy Tonkotsu Ramen $17.00",
+   "Black Garlic Tonkotsu $17.50",
+   "Shoyu Ramen $15.50",
+   "Miso Ramen $16.00",
+   "Vegetable Ramen $15.00",
+   "Tsukemen $18.00",
+   "Gyoza (6) $8.00",
+   "Karaage $9.50",
+   "Chashu Rice Bowl $8.50",
+   "Extra Noodles $3.00",
+   "Ajitama Egg $2.50",
+   "Yuzu Shio Ramen $17.50"
+  ]
+ },
+ {
+  "id": "m08",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "ko+en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "엠버앤오크 Ember & Oak Korean BBQ",
+   "무제한 · All You Can Eat · 2시간 이용",
+   "런치 무제한 Lunch AYCE (11–3) $28.99",
+   "디너 A Dinner A $36.99",
+   "프리미엄 Premium $46.99",
+   "어린이 (6–10세) Kids $16.99",
+   "우삼겹 Brisket 포함",
+   "양념갈비 Marinated Short Rib 포함",
+   "삼겹살 Pork Belly 포함",
+   "항정살 Pork Jowl 포함",
+   "된장찌개 Soybean Stew 포함",
+   "계란찜 Steamed Egg 포함",
+   "남긴 고기 1인분당 Leftover meat per portion $10.00",
+   "소주 Soju $14.00",
+   "맥주 Beer $7.00",
+   "차돌박이 추가 Extra Chadol $12.99"
+  ]
+ },
+ {
+  "id": "m09",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en+ko",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Lotus Pho 연꽃 쌀국수",
+   "Vietnamese noodle soup",
+   "Pho Tai (rare beef) S/L 14.50 / 16.50",
+   "Pho Ga (chicken) S/L 13.95 / 15.95",
+   "Bun Bo Hue $16.50",
+   "Spring Rolls (2) $7.50",
+   "Vietnamese Iced Coffee $5.50",
+   "Pho Dac Biet Large $17.95"
+  ]
+ },
+ {
+  "id": "m10",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Green Field Juice",
+   "Cold pressed",
+   "Green Machine $9.50",
+   "Beet It $9.00",
+   "Citrus Glow $8.50",
+   "Acai Bowl $12.50",
+   "Protein Smoothie $10.50",
+   "Ginger Shot $3.50"
+  ]
+ },
+ {
+  "id": "m11",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "용문각",
+   "중화요리 · 배달 가능",
+   "짜장면 $9.99",
+   "간짜장 $11.99",
+   "짬뽕 $12.99",
+   "볶음밥 $12.49",
+   "잡채밥 $13.49",
+   "울면 $12.99",
+   "탕수육 (소) $18.99",
+   "탕수육 (대) $28.99",
+   "깐풍기 $26.99",
+   "라조기 $26.99",
+   "군만두 $9.99",
+   "유린기 $24.99",
+   "삼선짬뽕 $16.99"
+  ]
+ },
+ {
+  "id": "m12",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Corner Slice",
+   "NY style pizza",
+   "Cheese Slice $4.50",
+   "Pepperoni Slice $5.00",
+   "Margherita Pie 18\" $24.00",
+   "White Pie 18\" $26.00",
+   "Caesar Salad $9.00",
+   "Garlic Knots (6) $6.50"
+  ]
+ },
+ {
+  "id": "m13",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "ko+en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "눈꽃빙수 Snowflake Bingsu",
+   "우유 눈꽃 · Milk snow",
+   "인절미 빙수 Injeolmi $13.50",
+   "망고 빙수 Mango $14.50",
+   "딸기 빙수 Strawberry $14.50",
+   "팥빙수 Red Bean $12.50",
+   "오레오 빙수 Oreo $13.50",
+   "흑임자 빙수 Black Sesame $14.50"
+  ]
+ },
+ {
+  "id": "m14",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   1054
+  ],
+  "lines": [
+   "Hilltop Burgers",
+   "Smash burgers",
+   "Single Smash $9.50",
+   "Double Smash $12.50",
+   "Chicken Sandwich $11.00",
+   "Veggie Burger $11.50",
+   "Fries $4.50",
+   "Shake $6.50",
+   "Truffle Fries $7.25"
+  ]
+ },
+ {
+  "id": "m15",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Nami Sushi",
+   "Rolls & hand rolls",
+   "California Roll $9.00",
+   "Spicy Tuna Roll $10.50",
+   "Salmon Avocado Roll $11.00",
+   "Rainbow Roll $16.00",
+   "Blue Crab Hand Roll $8.00",
+   "Spicy Scallop Hand Roll $8.50"
+  ]
+ },
+ {
+  "id": "m16",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Moonrise Donuts",
+   "Made every morning",
+   "Original Glazed $2.25",
+   "Old Fashioned $2.50",
+   "Maple Bar $3.25",
+   "Boston Cream $3.50",
+   "Dozen Assorted $24.00",
+   "Ube Glazed $3.75"
+  ]
+ },
+ {
+  "id": "m17",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1400,
+   1054
+  ],
+  "lines": [
+   "서울분식",
+   "김밥 · 떡볶이 · 라면",
+   "김밥 $7.99",
+   "떡볶이 $10.99",
+   "라볶이 $12.99",
+   "순대 $11.99",
+   "어묵 $8.99",
+   "라면 $9.49",
+   "참치김밥 $9.49"
+  ]
+ },
+ {
+  "id": "m18",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Siam Garden",
+   "Thai kitchen · spice level 1–5",
+   "Pad Thai $15.95",
+   "Pad See Ew $15.95",
+   "Drunken Noodles $16.50",
+   "Green Curry $16.95",
+   "Red Curry $16.95",
+   "Massaman Curry $17.50",
+   "Tom Yum Soup $14.50",
+   "Tom Kha Soup $14.50",
+   "Papaya Salad $12.95",
+   "Larb Gai $13.95",
+   "Mango Sticky Rice $9.95",
+   "Thai Iced Tea $5.50",
+   "Khao Soi Chicken $17.95"
+  ]
+ },
+ {
+  "id": "m19",
+  "kind": "menu",
+  "style": "menu_screen",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "다온 찻집",
+   "전통차 · 한과",
+   "녹차 $5.00",
+   "현미녹차 $5.00",
+   "유자차 $5.50",
+   "생강차 $5.50",
+   "대추차 $6.00",
+   "쌍화차 $6.50",
+   "매실차 $5.50",
+   "식혜 $5.00",
+   "수정과 $5.00",
+   "약과 (3개) $6.00",
+   "인절미 $6.50",
+   "한과 모둠 $12.00",
+   "오미자차 $6.50"
+  ]
+ },
+ {
+  "id": "m20",
+  "kind": "menu",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   962
+  ],
+  "lines": [
+   "Sunny Side Diner",
+   "All day breakfast",
+   "Two Eggs Any Style $11.50",
+   "Breakfast Burrito $13.50",
+   "Chicken & Waffles $17.00",
+   "Short Stack $9.50",
+   "Biscuits & Gravy $12.00",
+   "Loco Moco $16.75"
+  ]
+ },
+ {
+  "id": "p01",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   912
+  ],
+  "lines": [
+   "MAPLE PLAZA PARKING",
+   "First 90 min FREE with validation",
+   "$3 each additional 30 min",
+   "Daily maximum $18",
+   "Validate at participating stores"
+  ]
+ },
+ {
+  "id": "p02",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "LOT B · HARBOR CENTER",
+   "2 hours free parking",
+   "No overnight parking 2 AM – 5 AM",
+   "Violators will be towed at owner's expense"
+  ]
+ },
+ {
+  "id": "p03",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "한빛몰 주차 안내",
+   "영수증 지참 시 2시간 무료",
+   "이후 30분당 $2",
+   "지하 2층 전기차 충전소"
+  ]
+ },
+ {
+  "id": "p04",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "2 HOUR PARKING",
+   "8 AM – 6 PM",
+   "EXCEPT SUNDAYS",
+   "Vehicles with Zone 12 permits exempt"
+  ]
+ },
+ {
+  "id": "p05",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   740
+  ],
+  "lines": [
+   "VALET PARKING",
+   "$5 + tip",
+   "Self parking not available"
+  ]
+ },
+ {
+  "id": "p06",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "EV CHARGING · LEVEL P2",
+   "4 hour maximum while charging",
+   "$0.35 per kWh",
+   "Move vehicle when charging is complete"
+  ]
+ },
+ {
+  "id": "p07",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "주차장 이용 시간",
+   "06:00 – 24:00",
+   "24시 이후 출차 불가",
+   "분실 주차권 $25"
+  ]
+ },
+ {
+  "id": "p08",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   740
+  ],
+  "lines": [
+   "MAPLE PLAZA GARAGE",
+   "CLEARANCE 6'8\" (2.03 m)",
+   "Oversized vehicles use surface lot"
+  ]
+ },
+ {
+  "id": "p09",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   740
+  ],
+  "lines": [
+   "CUSTOMER PARKING ONLY",
+   "15 MIN LOADING ZONE",
+   "Unauthorized vehicles towed"
+  ]
+ },
+ {
+  "id": "p10",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "HARBOR CENTER GARAGE",
+   "Weekend flat rate $10",
+   "Saturday & Sunday",
+   "Weekdays $2 per hour"
+  ]
+ },
+ {
+  "id": "p11",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "ko+en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "Ember & Oak 고객 주차",
+   "3시간 무료 (발렛 제외)",
+   "Customers: 3 hours free",
+   "Valet not included"
+  ]
+ },
+ {
+  "id": "p12",
+  "kind": "parking",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   826
+  ],
+  "lines": [
+   "PAY BY PLATE",
+   "Enter your license plate at the kiosk",
+   "First 20 minutes free",
+   "Then $2.50 per hour"
+  ]
+ },
+ {
+  "id": "r01",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "HANBIT KITCHEN",
+   "123 Fictional St · Demo City",
+   "09/12/2026 7:42 PM",
+   "Server: Jina",
+   "Kimchi Jjigae           $16.99",
+   "Seafood Pancake         $19.49",
+   "Rice                     $2.50",
+   "Subtotal                $38.98",
+   "Tax                      $3.70",
+   "Tip                      $7.00",
+   "TOTAL                   $49.68",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$38.98",
+   "tax": "$3.70",
+   "tip": "$7.00",
+   "total": "$49.68"
+  }
+ },
+ {
+  "id": "r02",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "MARU CAFE",
+   "123 Fictional St · Demo City",
+   "09/14/2026 2:15 PM",
+   "Server: Theo",
+   "Misugaru Latte           $6.25",
+   "Croffle                  $6.75",
+   "Americano                $4.25",
+   "Subtotal                $17.25",
+   "Tax                      $1.64",
+   "Tip                      $3.50",
+   "TOTAL                   $22.39",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$17.25",
+   "tax": "$1.64",
+   "tip": "$3.50",
+   "total": "$22.39"
+  }
+ },
+ {
+  "id": "r03",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1148
+  ],
+  "lines": [
+   "BLUE LANTERN BISTRO",
+   "123 Fictional St · Demo City",
+   "09/20/2026 11:05 AM",
+   "Server: Ava",
+   "Crab Cake Benedict      $24.00",
+   "Shakshuka               $17.00",
+   "Mimosa                  $12.00",
+   "Fresh Orange Juice       $7.00",
+   "Subtotal                $60.00",
+   "Tax                      $5.70",
+   "Tip                     $12.00",
+   "TOTAL                   $77.70",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$60.00",
+   "tax": "$5.70",
+   "tip": "$12.00",
+   "total": "$77.70"
+  }
+ },
+ {
+  "id": "r04",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1052
+  ],
+  "lines": [
+   "KAZE RAMEN",
+   "123 Fictional St · Demo City",
+   "09/22/2026 8:30 PM",
+   "Server: Ken",
+   "Tonkotsu Ramen          $16.50",
+   "Gyoza (6)                $8.00",
+   "Subtotal                $24.50",
+   "Tax                      $2.33",
+   "Tip                      $5.00",
+   "TOTAL                   $31.83",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$24.50",
+   "tax": "$2.33",
+   "tip": "$5.00",
+   "total": "$31.83"
+  }
+ },
+ {
+  "id": "r05",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1052
+  ],
+  "lines": [
+   "LA BRISA TACOS",
+   "123 Fictional St · Demo City",
+   "09/23/2026 1:10 PM",
+   "Server: Counter",
+   "Al Pastor Taco x3       $11.25",
+   "Horchata                 $4.00",
+   "Subtotal                $15.25",
+   "Tax                      $1.45",
+   "Tip                      $2.00",
+   "TOTAL                   $18.70",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$15.25",
+   "tax": "$1.45",
+   "tip": "$2.00",
+   "total": "$18.70"
+  }
+ },
+ {
+  "id": "r06",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "SIAM GARDEN",
+   "123 Fictional St · Demo City",
+   "09/25/2026 6:50 PM",
+   "Server: Nok",
+   "Pad Thai                $15.95",
+   "Green Curry             $16.95",
+   "Thai Iced Tea            $5.50",
+   "Subtotal                $38.40",
+   "Tax                      $3.65",
+   "Tip                      $7.50",
+   "TOTAL                   $49.55",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$38.40",
+   "tax": "$3.65",
+   "tip": "$7.50",
+   "total": "$49.55"
+  }
+ },
+ {
+  "id": "r07",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1052
+  ],
+  "lines": [
+   "PINE HILL BAKERY",
+   "123 Fictional St · Demo City",
+   "09/27/2026 8:05 AM",
+   "Server: Self",
+   "Salt Bread x2            $7.90",
+   "Croissant                $4.25",
+   "Subtotal                $12.15",
+   "Tax                      $0.00",
+   "Tip                      $0.00",
+   "TOTAL                   $12.15",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$12.15",
+   "tax": "$0.00",
+   "tip": "$0.00",
+   "total": "$12.15"
+  }
+ },
+ {
+  "id": "r08",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "DRAGON GATE",
+   "123 Fictional St · Demo City",
+   "09/28/2026 12:20 PM",
+   "Server: Delivery",
+   "Jjajangmyeon             $9.99",
+   "Sweet & Sour Pork (L)    $28.99",
+   "Delivery fee             $4.99",
+   "Subtotal                $43.97",
+   "Tax                      $4.18",
+   "Tip                      $5.00",
+   "TOTAL                   $53.15",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$43.97",
+   "tax": "$4.18",
+   "tip": "$5.00",
+   "total": "$53.15"
+  }
+ },
+ {
+  "id": "r09",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "NAMI SUSHI",
+   "123 Fictional St · Demo City",
+   "10/02/2026 7:15 PM",
+   "Server: Yuki",
+   "Rainbow Roll            $16.00",
+   "Spicy Tuna Roll         $10.50",
+   "Miso Soup                $3.50",
+   "Subtotal                $30.00",
+   "Tax                      $2.85",
+   "Tip                      $6.00",
+   "TOTAL                   $38.85",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$30.00",
+   "tax": "$2.85",
+   "tip": "$6.00",
+   "total": "$38.85"
+  }
+ },
+ {
+  "id": "r10",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "HILLTOP BURGERS",
+   "123 Fictional St · Demo City",
+   "10/04/2026 12:40 PM",
+   "Server: Pickup",
+   "Double Smash            $12.50",
+   "Truffle Fries            $7.25",
+   "Shake                    $6.50",
+   "Subtotal                $26.25",
+   "Tax                      $2.49",
+   "Tip                      $0.00",
+   "TOTAL                   $28.74",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$26.25",
+   "tax": "$2.49",
+   "tip": "$0.00",
+   "total": "$28.74"
+  }
+ },
+ {
+  "id": "r11",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1052
+  ],
+  "lines": [
+   "SNOWFLAKE BINGSU",
+   "123 Fictional St · Demo City",
+   "10/05/2026 3:15 PM",
+   "Server: Order A27",
+   "Injeolmi Bingsu         $13.50",
+   "Mango Bingsu            $14.50",
+   "Subtotal                $28.00",
+   "Tax                      $2.66",
+   "Tip                      $2.00",
+   "TOTAL                   $32.66",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$28.00",
+   "tax": "$2.66",
+   "tip": "$2.00",
+   "total": "$32.66"
+  }
+ },
+ {
+  "id": "r12",
+  "kind": "receipt",
+  "style": "receipt",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1060,
+   1100
+  ],
+  "lines": [
+   "SUNNY SIDE DINER",
+   "123 Fictional St · Demo City",
+   "10/11/2026 9:40 AM",
+   "Server: Rosa",
+   "Loco Moco               $16.75",
+   "Short Stack              $9.50",
+   "Coffee x2                $6.00",
+   "Subtotal                $32.25",
+   "Tax                      $3.06",
+   "Tip                      $6.50",
+   "TOTAL                   $41.81",
+   "Thank you!"
+  ],
+  "math": {
+   "subtotal": "$32.25",
+   "tax": "$3.06",
+   "tip": "$6.50",
+   "total": "$41.81"
+  }
+ },
+ {
+  "id": "n01",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "en+ko",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "Maru Cafe 마루카페",
+   "FREE WI-FI",
+   "Network: MARU_GUEST",
+   "Password: latte2026",
+   "1 hour limit when busy · 혼잡 시 1시간"
+  ]
+ },
+ {
+  "id": "n02",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "한빛식당 휴무 안내",
+   "10월 9일(금) 한글날",
+   "하루 휴무합니다.",
+   "10월 10일(토)부터 정상 영업합니다."
+  ]
+ },
+ {
+  "id": "n03",
+  "kind": "notice",
+  "style": "notice_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1600
+  ],
+  "lines": [
+   "Pine Hill Bakery",
+   "New hours!",
+   "Starting October 20 we open at 7 AM",
+   "(previously 8 AM)",
+   "Closing time stays 6 PM"
+  ]
+ },
+ {
+  "id": "n04",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "소라 순두부",
+   "브레이크 타임",
+   "15:00 – 17:00",
+   "주문 마감 14:30"
+  ]
+ },
+ {
+  "id": "n05",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "Blue Lantern Bistro",
+   "Corkage fee $20 per bottle",
+   "Limit 2 bottles per table"
+  ]
+ },
+ {
+  "id": "n06",
+  "kind": "notice",
+  "style": "notice_screen",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1600
+  ],
+  "lines": [
+   "엠버앤오크 생일 혜택",
+   "생일 당일 방문 시 디저트 무료",
+   "신분증을 보여 주세요",
+   "다른 할인과 중복 불가"
+  ]
+ },
+ {
+  "id": "n07",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "Kaze Ramen",
+   "Card minimum $10",
+   "Cash welcome"
+  ]
+ },
+ {
+  "id": "n08",
+  "kind": "notice",
+  "style": "notice_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1600
+  ],
+  "lines": [
+   "Lotus Pho",
+   "Closed Thanksgiving Day",
+   "Thursday, November 26",
+   "Open regular hours Friday"
+  ]
+ },
+ {
+  "id": "n09",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "용문각 배달 안내",
+   "최소 주문 $25",
+   "배달비 $4.99",
+   "배달 가능 거리 3마일"
+  ]
+ },
+ {
+  "id": "n10",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "Corner Slice",
+   "HAPPY HOUR 3 – 5 PM",
+   "$2 off any slice",
+   "Weekdays only"
+  ]
+ },
+ {
+  "id": "n11",
+  "kind": "notice",
+  "style": "notice_paper",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1416,
+   1600
+  ],
+  "lines": [
+   "다온 찻집 안내",
+   "어린이 동반 환영합니다",
+   "반려동물은 테라스석만 가능합니다",
+   "실내 동반 불가"
+  ]
+ },
+ {
+  "id": "n12",
+  "kind": "notice",
+  "style": "notice_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1600
+  ],
+  "lines": [
+   "Siam Garden",
+   "Spice levels 1 – 5",
+   "Level 5 is extremely hot",
+   "Level 5 dishes are not refundable"
+  ]
+ },
+ {
+  "id": "b01",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Reservation confirmed",
+   "Blue Lantern Bistro",
+   "Sat, Oct 24 · 7:30 PM",
+   "Party of 4",
+   "Confirmation #BL-4821"
+  ]
+ },
+ {
+  "id": "b02",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Reservation confirmed",
+   "Ember & Oak Korean BBQ",
+   "Fri, Oct 30 · 6:00 PM",
+   "Party of 6",
+   "2-hour table limit",
+   "Confirmation #EO-1179"
+  ]
+ },
+ {
+  "id": "b03",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "예약이 확정되었습니다",
+   "한빛식당",
+   "10월 18일(일) 오후 12:30",
+   "3명",
+   "예약번호 HB-2210"
+  ]
+ },
+ {
+  "id": "b04",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Kaze Ramen waitlist",
+   "You're #5 in line",
+   "Estimated wait 25 min",
+   "We'll text you when your table is ready"
+  ]
+ },
+ {
+  "id": "b05",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Omakase counter",
+   "Nami Sushi",
+   "Sat, Nov 7 · 8:00 PM",
+   "2 guests",
+   "Deposit paid $50",
+   "Confirmation #NS-0073"
+  ]
+ },
+ {
+  "id": "b06",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Order ready",
+   "Snowflake Bingsu",
+   "Pickup at 3:15 PM",
+   "Order #A27"
+  ]
+ },
+ {
+  "id": "b07",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Reservation confirmed",
+   "Siam Garden",
+   "Sun, Nov 1 · 5:45 PM",
+   "Party of 5",
+   "Confirmation #SG-5530"
+  ]
+ },
+ {
+  "id": "b08",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "예약 완료",
+   "다온 찻집",
+   "11월 3일(화) 오후 4:00",
+   "2명",
+   "창가 자리 요청"
+  ]
+ },
+ {
+  "id": "b09",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Reservation confirmed",
+   "Sunny Side Diner",
+   "Sun, Oct 25 · 9:00 AM",
+   "Party of 4",
+   "High chair requested",
+   "Confirmation #SS-0921"
+  ]
+ },
+ {
+  "id": "b10",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Pickup order",
+   "Hilltop Burgers",
+   "Ready at 12:40 PM",
+   "Order #H-310",
+   "Total $28.74"
+  ]
+ },
+ {
+  "id": "b11",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Delivery on the way",
+   "Lotus Pho",
+   "Arriving around 7:10 PM",
+   "Order #LP-7782"
+  ]
+ },
+ {
+  "id": "b12",
+  "kind": "booking",
+  "style": "booking",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1700
+  ],
+  "lines": [
+   "Preorder confirmed",
+   "Moonrise Donuts",
+   "Pickup Sat, Oct 31 · 8:00 AM",
+   "2 dozen assorted",
+   "Order #MD-1201"
+  ]
+ },
+ {
+  "id": "x01",
+  "kind": "distractor",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "ko",
+  "size": [
+   1400,
+   900
+  ],
+  "lines": [
+   "한빛분식",
+   "분식 · 찌개",
+   "김치찌개 $14.99",
+   "부대찌개 $15.99",
+   "떡볶이 $9.99",
+   "김밥 $6.99",
+   "라면 $8.49"
+  ]
+ },
+ {
+  "id": "x02",
+  "kind": "distractor",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   900
+  ],
+  "lines": [
+   "Maru Bakery",
+   "Bread & coffee",
+   "Americano $3.75",
+   "Latte $4.75",
+   "Sourdough Loaf $9.00",
+   "Scone $4.00"
+  ]
+ },
+ {
+  "id": "x03",
+  "kind": "distractor",
+  "style": "sign",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1600,
+   740
+  ],
+  "lines": [
+   "OAK PLAZA PARKING",
+   "First 60 min free with validation",
+   "$4 each additional hour"
+  ]
+ },
+ {
+  "id": "x04",
+  "kind": "distractor",
+  "style": "widget",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1500
+  ],
+  "lines": [
+   "Weather",
+   "Partly cloudy",
+   "72°F",
+   "Wind 8 mph",
+   "Sunset 6:21 PM"
+  ]
+ },
+ {
+  "id": "x05",
+  "kind": "distractor",
+  "style": "widget",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1500
+  ],
+  "lines": [
+   "Now playing",
+   "Late Night Drive",
+   "Neon Harbor",
+   "2:41 / 3:58"
+  ]
+ },
+ {
+  "id": "x06",
+  "kind": "distractor",
+  "style": "chat",
+  "photo": false,
+  "lang": "ko",
+  "size": [
+   900,
+   1500
+  ],
+  "lines": [
+   "민호: 이번 주 점심 어디 갈까?",
+   "수아: 국수 먹고 싶어",
+   "민호: 목요일 괜찮아?",
+   "수아: 좋아 12시"
+  ]
+ },
+ {
+  "id": "x07",
+  "kind": "distractor",
+  "style": "widget",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1500
+  ],
+  "lines": [
+   "To do",
+   "Buy batteries",
+   "Return library books",
+   "Call the dentist",
+   "Water the plants"
+  ]
+ },
+ {
+  "id": "x08",
+  "kind": "distractor",
+  "style": "no_text",
+  "photo": true,
+  "lang": "-",
+  "size": [
+   1400,
+   1050
+  ],
+  "lines": []
+ },
+ {
+  "id": "x09",
+  "kind": "distractor",
+  "style": "no_text",
+  "photo": true,
+  "lang": "-",
+  "size": [
+   1400,
+   1050
+  ],
+  "lines": []
+ },
+ {
+  "id": "x10",
+  "kind": "distractor",
+  "style": "widget",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1500
+  ],
+  "lines": [
+   "October 2026",
+   "Mon 26 · Team sync 10:00",
+   "Wed 28 · Gym 18:30",
+   "Sat 31 · Night market"
+  ]
+ },
+ {
+  "id": "x11",
+  "kind": "distractor",
+  "style": "menu_board",
+  "photo": true,
+  "lang": "en",
+  "size": [
+   1400,
+   900
+  ],
+  "lines": [
+   "Blue Harbor Bistro",
+   "Seafood",
+   "Clam Chowder $9.00",
+   "Fish & Chips $19.00",
+   "Lobster Roll $28.00",
+   "Oysters (6) $18.00"
+  ]
+ },
+ {
+  "id": "x12",
+  "kind": "distractor",
+  "style": "notice_screen",
+  "photo": false,
+  "lang": "en",
+  "size": [
+   900,
+   1600
+  ],
+  "lines": [
+   "Harbor Night Market",
+   "Saturday, October 31",
+   "6 PM – 11 PM",
+   "Food trucks · Live music"
+  ]
+ }
+]

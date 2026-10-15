@@ -1,0 +1,4948 @@
+{
+ "tag": "manual",
+ "prompt_version": "V5",
+ "device": "Pixel 11 Pro XL",
+ "offline_start": {
+  "airplane_mode": true,
+  "active_network": null,
+  "uid_tx_bytes": 3777,
+  "uid_rx_bytes": 14831
+ },
+ "embedder_load_ms": 888.67314,
+ "embed_micro_before": {
+  "backend": "COMPILED_CPU",
+  "ms": [
+   47.857343,
+   37.899245,
+   38.371276,
+   40.53539,
+   39.460755,
+   40.308291,
+   41.154349,
+   38.477084,
+   38.313905,
+   46.613645,
+   41.599687,
+   40.267692,
+   38.521276,
+   38.469885,
+   40.496849,
+   39.351015,
+   38.971953,
+   42.441952,
+   38.408411,
+   37.073082
+  ]
+ },
+ "index": [
+  {
+   "id": "b01",
+   "ocr_ms": 363.514006,
+   "embed_ms": 68.702993,
+   "chunks": 1
+  },
+  {
+   "id": "b02",
+   "ocr_ms": 177.931804,
+   "embed_ms": 60.042447,
+   "chunks": 1
+  },
+  {
+   "id": "b03",
+   "ocr_ms": 138.302055,
+   "embed_ms": 58.435026,
+   "chunks": 1
+  },
+  {
+   "id": "b04",
+   "ocr_ms": 141.108384,
+   "embed_ms": 79.379104,
+   "chunks": 1
+  },
+  {
+   "id": "b05",
+   "ocr_ms": 151.446575,
+   "embed_ms": 66.011457,
+   "chunks": 1
+  },
+  {
+   "id": "b06",
+   "ocr_ms": 160.343435,
+   "embed_ms": 69.417786,
+   "chunks": 1
+  },
+  {
+   "id": "b07",
+   "ocr_ms": 147.566169,
+   "embed_ms": 55.906067,
+   "chunks": 1
+  },
+  {
+   "id": "b08",
+   "ocr_ms": 113.618592,
+   "embed_ms": 48.154203,
+   "chunks": 1
+  },
+  {
+   "id": "b09",
+   "ocr_ms": 136.905458,
+   "embed_ms": 61.521952,
+   "chunks": 1
+  },
+  {
+   "id": "b10",
+   "ocr_ms": 120.949347,
+   "embed_ms": 47.993369,
+   "chunks": 1
+  },
+  {
+   "id": "b11",
+   "ocr_ms": 153.645675,
+   "embed_ms": 50.163124,
+   "chunks": 1
+  },
+  {
+   "id": "b12",
+   "ocr_ms": 123.107342,
+   "embed_ms": 56.681187,
+   "chunks": 1
+  },
+  {
+   "id": "m01",
+   "ocr_ms": 372.051469,
+   "embed_ms": 217.276507,
+   "chunks": 5
+  },
+  {
+   "id": "m02",
+   "ocr_ms": 248.505727,
+   "embed_ms": 181.006752,
+   "chunks": 4
+  },
+  {
+   "id": "m03",
+   "ocr_ms": 188.949503,
+   "embed_ms": 166.965675,
+   "chunks": 4
+  },
+  {
+   "id": "m04",
+   "ocr_ms": 263.498277,
+   "embed_ms": 129.122983,
+   "chunks": 3
+  },
+  {
+   "id": "m05",
+   "ocr_ms": 252.844477,
+   "embed_ms": 97.352379,
+   "chunks": 2
+  },
+  {
+   "id": "m06",
+   "ocr_ms": 218.513174,
+   "embed_ms": 96.808696,
+   "chunks": 2
+  },
+  {
+   "id": "m07",
+   "ocr_ms": 275.463251,
+   "embed_ms": 151.491144,
+   "chunks": 3
+  },
+  {
+   "id": "m08",
+   "ocr_ms": 264.153538,
+   "embed_ms": 175.479503,
+   "chunks": 4
+  },
+  {
+   "id": "m09",
+   "ocr_ms": 292.190205,
+   "embed_ms": 85.532326,
+   "chunks": 2
+  },
+  {
+   "id": "m10",
+   "ocr_ms": 150.343592,
+   "embed_ms": 42.744218,
+   "chunks": 1
+  },
+  {
+   "id": "m11",
+   "ocr_ms": 163.722342,
+   "embed_ms": 134.466483,
+   "chunks": 3
+  },
+  {
+   "id": "m12",
+   "ocr_ms": 125.287827,
+   "embed_ms": 85.381587,
+   "chunks": 2
+  },
+  {
+   "id": "m13",
+   "ocr_ms": 122.542567,
+   "embed_ms": 83.848254,
+   "chunks": 2
+  },
+  {
+   "id": "m14",
+   "ocr_ms": 221.96281,
+   "embed_ms": 81.595233,
+   "chunks": 2
+  },
+  {
+   "id": "m15",
+   "ocr_ms": 156.321612,
+   "embed_ms": 84.179453,
+   "chunks": 2
+  },
+  {
+   "id": "m16",
+   "ocr_ms": 149.790649,
+   "embed_ms": 43.09126,
+   "chunks": 1
+  },
+  {
+   "id": "m17",
+   "ocr_ms": 117.537083,
+   "embed_ms": 95.828957,
+   "chunks": 2
+  },
+  {
+   "id": "m18",
+   "ocr_ms": 339.746349,
+   "embed_ms": 128.507263,
+   "chunks": 3
+  },
+  {
+   "id": "m19",
+   "ocr_ms": 160.84366,
+   "embed_ms": 128.375884,
+   "chunks": 3
+  },
+  {
+   "id": "m20",
+   "ocr_ms": 258.772877,
+   "embed_ms": 83.946926,
+   "chunks": 2
+  },
+  {
+   "id": "n01",
+   "ocr_ms": 216.642237,
+   "embed_ms": 43.035478,
+   "chunks": 1
+  },
+  {
+   "id": "n02",
+   "ocr_ms": 129.627436,
+   "embed_ms": 42.510588,
+   "chunks": 1
+  },
+  {
+   "id": "n03",
+   "ocr_ms": 257.655794,
+   "embed_ms": 51.284141,
+   "chunks": 1
+  },
+  {
+   "id": "n04",
+   "ocr_ms": 127.867238,
+   "embed_ms": 48.505728,
+   "chunks": 1
+  },
+  {
+   "id": "n05",
+   "ocr_ms": 138.287343,
+   "embed_ms": 46.667161,
+   "chunks": 1
+  },
+  {
+   "id": "n06",
+   "ocr_ms": 113.317436,
+   "embed_ms": 49.320406,
+   "chunks": 1
+  },
+  {
+   "id": "n07",
+   "ocr_ms": 117.81428,
+   "embed_ms": 51.457656,
+   "chunks": 1
+  },
+  {
+   "id": "n08",
+   "ocr_ms": 125.962186,
+   "embed_ms": 46.873333,
+   "chunks": 1
+  },
+  {
+   "id": "n09",
+   "ocr_ms": 116.089259,
+   "embed_ms": 43.373619,
+   "chunks": 1
+  },
+  {
+   "id": "n10",
+   "ocr_ms": 150.425259,
+   "embed_ms": 43.435129,
+   "chunks": 1
+  },
+  {
+   "id": "n11",
+   "ocr_ms": 110.578478,
+   "embed_ms": 44.972412,
+   "chunks": 1
+  },
+  {
+   "id": "n12",
+   "ocr_ms": 124.793395,
+   "embed_ms": 51.883281,
+   "chunks": 1
+  },
+  {
+   "id": "p01",
+   "ocr_ms": 226.233201,
+   "embed_ms": 48.036484,
+   "chunks": 1
+  },
+  {
+   "id": "p02",
+   "ocr_ms": 221.048512,
+   "embed_ms": 44.78526,
+   "chunks": 1
+  },
+  {
+   "id": "p03",
+   "ocr_ms": 121.265024,
+   "embed_ms": 47.31202,
+   "chunks": 1
+  },
+  {
+   "id": "p04",
+   "ocr_ms": 116.883281,
+   "embed_ms": 42.568661,
+   "chunks": 1
+  },
+  {
+   "id": "p05",
+   "ocr_ms": 204.092306,
+   "embed_ms": 53.360963,
+   "chunks": 1
+  },
+  {
+   "id": "p06",
+   "ocr_ms": 92.581171,
+   "embed_ms": 42.869948,
+   "chunks": 1
+  },
+  {
+   "id": "p07",
+   "ocr_ms": 102.933983,
+   "embed_ms": 42.62177,
+   "chunks": 1
+  },
+  {
+   "id": "p08",
+   "ocr_ms": 95.789868,
+   "embed_ms": 47.689948,
+   "chunks": 1
+  },
+  {
+   "id": "p09",
+   "ocr_ms": 93.29763,
+   "embed_ms": 51.25802,
+   "chunks": 1
+  },
+  {
+   "id": "p10",
+   "ocr_ms": 101.955546,
+   "embed_ms": 48.687525,
+   "chunks": 1
+  },
+  {
+   "id": "p11",
+   "ocr_ms": 118.112723,
+   "embed_ms": 41.036468,
+   "chunks": 1
+  },
+  {
+   "id": "p12",
+   "ocr_ms": 137.083306,
+   "embed_ms": 77.00139,
+   "chunks": 1
+  },
+  {
+   "id": "r01",
+   "ocr_ms": 187.521819,
+   "embed_ms": 88.155285,
+   "chunks": 2
+  },
+  {
+   "id": "r02",
+   "ocr_ms": 139.534609,
+   "embed_ms": 85.83552,
+   "chunks": 2
+  },
+  {
+   "id": "r03",
+   "ocr_ms": 255.17148,
+   "embed_ms": 84.059634,
+   "chunks": 2
+  },
+  {
+   "id": "r04",
+   "ocr_ms": 285.595099,
+   "embed_ms": 84.452385,
+   "chunks": 2
+  },
+  {
+   "id": "r05",
+   "ocr_ms": 134.728566,
+   "embed_ms": 97.286379,
+   "chunks": 2
+  },
+  {
+   "id": "r06",
+   "ocr_ms": 174.792836,
+   "embed_ms": 85.675233,
+   "chunks": 2
+  },
+  {
+   "id": "r07",
+   "ocr_ms": 142.371405,
+   "embed_ms": 83.575911,
+   "chunks": 2
+  },
+  {
+   "id": "r08",
+   "ocr_ms": 181.938696,
+   "embed_ms": 87.947317,
+   "chunks": 2
+  },
+  {
+   "id": "r09",
+   "ocr_ms": 168.510102,
+   "embed_ms": 82.403592,
+   "chunks": 2
+  },
+  {
+   "id": "r10",
+   "ocr_ms": 164.95591,
+   "embed_ms": 88.420858,
+   "chunks": 2
+  },
+  {
+   "id": "r11",
+   "ocr_ms": 145.572133,
+   "embed_ms": 85.423202,
+   "chunks": 2
+  },
+  {
+   "id": "r12",
+   "ocr_ms": 168.344894,
+   "embed_ms": 84.526354,
+   "chunks": 2
+  },
+  {
+   "id": "x01",
+   "ocr_ms": 165.510154,
+   "embed_ms": 41.570088,
+   "chunks": 1
+  },
+  {
+   "id": "x02",
+   "ocr_ms": 126.682315,
+   "embed_ms": 41.799427,
+   "chunks": 1
+  },
+  {
+   "id": "x03",
+   "ocr_ms": 240.537965,
+   "embed_ms": 50.400796,
+   "chunks": 1
+  },
+  {
+   "id": "x04",
+   "ocr_ms": 238.728825,
+   "embed_ms": 50.331745,
+   "chunks": 1
+  },
+  {
+   "id": "x05",
+   "ocr_ms": 119.528722,
+   "embed_ms": 42.877577,
+   "chunks": 1
+  },
+  {
+   "id": "x06",
+   "ocr_ms": 113.427108,
+   "embed_ms": 51.407708,
+   "chunks": 1
+  },
+  {
+   "id": "x07",
+   "ocr_ms": 134.463956,
+   "embed_ms": 51.583681,
+   "chunks": 1
+  },
+  {
+   "id": "x08",
+   "ocr_ms": 141.610494,
+   "embed_ms": 48.95302,
+   "chunks": 1
+  },
+  {
+   "id": "x09",
+   "ocr_ms": 49.351031,
+   "embed_ms": 42.200738,
+   "chunks": 1
+  },
+  {
+   "id": "x10",
+   "ocr_ms": 116.406196,
+   "embed_ms": 44.739426,
+   "chunks": 1
+  },
+  {
+   "id": "x11",
+   "ocr_ms": 236.442237,
+   "embed_ms": 48.193359,
+   "chunks": 1
+  },
+  {
+   "id": "x12",
+   "ocr_ms": 214.260284,
+   "embed_ms": 50.182874,
+   "chunks": 1
+  }
+ ],
+ "index_ms": 22585.900544,
+ "llm_load_ms": 4262.722237,
+ "pss_kb_both_loaded": 2344116,
+ "embed_micro_after_llm": {
+  "backend": "COMPILED_CPU",
+  "ms": [
+   52.337124,
+   41.239843,
+   39.348646,
+   39.295702,
+   39.575988,
+   39.688854,
+   38.651354,
+   39.029,
+   39.185556,
+   39.401979,
+   39.430547,
+   39.43111,
+   39.08113,
+   39.298463,
+   39.696275,
+   39.274661,
+   39.404114,
+   39.439584,
+   39.443421,
+   39.403801
+  ]
+ },
+ "offline_end": {
+  "airplane_mode": true,
+  "active_network": null,
+  "uid_tx_bytes": 3777,
+  "uid_rx_bytes": 14831
+ },
+ "total_ms": 252979.318876,
+ "phases": [
+  {
+   "phase": "load_embedder",
+   "t_ms": 842
+  },
+  {
+   "phase": "index",
+   "t_ms": 2537
+  },
+  {
+   "phase": "load_llm",
+   "t_ms": 23474
+  },
+  {
+   "phase": "questions",
+   "t_ms": 28602
+  },
+  {
+   "phase": "done",
+   "t_ms": 252887
+  }
+ ],
+ "battery": [
+  {
+   "t_ms": 23,
+   "current_ua": -6250,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2190300
+  },
+  {
+   "t_ms": 1086,
+   "current_ua": 3906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1728280
+  },
+  {
+   "t_ms": 2116,
+   "current_ua": -1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1872380
+  },
+  {
+   "t_ms": 3147,
+   "current_ua": -4687,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1933467
+  },
+  {
+   "t_ms": 4184,
+   "current_ua": 3906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1895511
+  },
+  {
+   "t_ms": 5220,
+   "current_ua": -3125,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1885011
+  },
+  {
+   "t_ms": 6254,
+   "current_ua": -4687,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1902023
+  },
+  {
+   "t_ms": 7288,
+   "current_ua": -5468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1923647
+  },
+  {
+   "t_ms": 8336,
+   "current_ua": 1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1153791
+  },
+  {
+   "t_ms": 9368,
+   "current_ua": -7812,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 596403
+  },
+  {
+   "t_ms": 10401,
+   "current_ua": 10156,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 597367
+  },
+  {
+   "t_ms": 11442,
+   "current_ua": -1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 618335
+  },
+  {
+   "t_ms": 12478,
+   "current_ua": 5468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 629183
+  },
+  {
+   "t_ms": 13516,
+   "current_ua": -8593,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 610487
+  },
+  {
+   "t_ms": 14548,
+   "current_ua": -4687,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 624939
+  },
+  {
+   "t_ms": 15583,
+   "current_ua": -3125,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 604075
+  },
+  {
+   "t_ms": 16614,
+   "current_ua": 1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 602727
+  },
+  {
+   "t_ms": 17647,
+   "current_ua": 1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 606559
+  },
+  {
+   "t_ms": 18688,
+   "current_ua": 0,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 610923
+  },
+  {
+   "t_ms": 19723,
+   "current_ua": -1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 614711
+  },
+  {
+   "t_ms": 20762,
+   "current_ua": 2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 599607
+  },
+  {
+   "t_ms": 21798,
+   "current_ua": -2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 598631
+  },
+  {
+   "t_ms": 22830,
+   "current_ua": -2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 607399
+  },
+  {
+   "t_ms": 23869,
+   "current_ua": -5468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 788427
+  },
+  {
+   "t_ms": 24917,
+   "current_ua": -2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1124848
+  },
+  {
+   "t_ms": 25961,
+   "current_ua": -10937,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 1486144
+  },
+  {
+   "t_ms": 27006,
+   "current_ua": 3906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2084192
+  },
+  {
+   "t_ms": 28053,
+   "current_ua": 0,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2344208
+  },
+  {
+   "t_ms": 29108,
+   "current_ua": -271093,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2497087
+  },
+  {
+   "t_ms": 30164,
+   "current_ua": -1562,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2523730
+  },
+  {
+   "t_ms": 31217,
+   "current_ua": -130468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2530626
+  },
+  {
+   "t_ms": 32267,
+   "current_ua": -5468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2569634
+  },
+  {
+   "t_ms": 33323,
+   "current_ua": -307812,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2585682
+  },
+  {
+   "t_ms": 34380,
+   "current_ua": -7812,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2594678
+  },
+  {
+   "t_ms": 35440,
+   "current_ua": -20312,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2601958
+  },
+  {
+   "t_ms": 36503,
+   "current_ua": -321093,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2602266
+  },
+  {
+   "t_ms": 37564,
+   "current_ua": 781,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2602010
+  },
+  {
+   "t_ms": 38614,
+   "current_ua": 13281,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2603642
+  },
+  {
+   "t_ms": 39687,
+   "current_ua": -6250,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2604782
+  },
+  {
+   "t_ms": 40743,
+   "current_ua": 0,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2639994
+  },
+  {
+   "t_ms": 41813,
+   "current_ua": -178906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2650206
+  },
+  {
+   "t_ms": 42869,
+   "current_ua": -2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2658894
+  },
+  {
+   "t_ms": 43920,
+   "current_ua": -432031,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2672454
+  },
+  {
+   "t_ms": 44979,
+   "current_ua": -407031,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2676778
+  },
+  {
+   "t_ms": 46037,
+   "current_ua": -237500,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2684194
+  },
+  {
+   "t_ms": 47091,
+   "current_ua": -99218,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2693634
+  },
+  {
+   "t_ms": 48149,
+   "current_ua": -310937,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2698138
+  },
+  {
+   "t_ms": 49207,
+   "current_ua": -115625,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2697856
+  },
+  {
+   "t_ms": 50275,
+   "current_ua": -567187,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2690582
+  },
+  {
+   "t_ms": 51351,
+   "current_ua": -289062,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2690582
+  },
+  {
+   "t_ms": 52424,
+   "current_ua": 8593,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2690278
+  },
+  {
+   "t_ms": 53485,
+   "current_ua": -8593,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2691006
+  },
+  {
+   "t_ms": 54575,
+   "current_ua": -14843,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2697930
+  },
+  {
+   "t_ms": 55646,
+   "current_ua": -115625,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2697174
+  },
+  {
+   "t_ms": 56711,
+   "current_ua": -175000,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2699586
+  },
+  {
+   "t_ms": 57789,
+   "current_ua": -303906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2703306
+  },
+  {
+   "t_ms": 58872,
+   "current_ua": -232812,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2703434
+  },
+  {
+   "t_ms": 59953,
+   "current_ua": 3906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2706382
+  },
+  {
+   "t_ms": 61011,
+   "current_ua": -387500,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2713382
+  },
+  {
+   "t_ms": 62084,
+   "current_ua": -46875,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2713974
+  },
+  {
+   "t_ms": 63175,
+   "current_ua": -3125,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2714054
+  },
+  {
+   "t_ms": 64261,
+   "current_ua": -220312,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2718986
+  },
+  {
+   "t_ms": 65331,
+   "current_ua": -30468,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2719258
+  },
+  {
+   "t_ms": 66399,
+   "current_ua": -202343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2718594
+  },
+  {
+   "t_ms": 67473,
+   "current_ua": -360156,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2723994
+  },
+  {
+   "t_ms": 68577,
+   "current_ua": -390625,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2722842
+  },
+  {
+   "t_ms": 69653,
+   "current_ua": -2343,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2721854
+  },
+  {
+   "t_ms": 70726,
+   "current_ua": 3906,
+   "charge_uah": 4082500,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2725346
+  },
+  {
+   "t_ms": 71805,
+   "current_ua": -107812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2725302
+  },
+  {
+   "t_ms": 72872,
+   "current_ua": -4687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2727530
+  },
+  {
+   "t_ms": 73935,
+   "current_ua": -422656,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2727826
+  },
+  {
+   "t_ms": 75004,
+   "current_ua": -204687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2727182
+  },
+  {
+   "t_ms": 76070,
+   "current_ua": -8593,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2728578
+  },
+  {
+   "t_ms": 77139,
+   "current_ua": -259375,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2730086
+  },
+  {
+   "t_ms": 78229,
+   "current_ua": -228125,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2731306
+  },
+  {
+   "t_ms": 79308,
+   "current_ua": -281250,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2729198
+  },
+  {
+   "t_ms": 80391,
+   "current_ua": -271875,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2729642
+  },
+  {
+   "t_ms": 81471,
+   "current_ua": 5468,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2729366
+  },
+  {
+   "t_ms": 82569,
+   "current_ua": -266406,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2730834
+  },
+  {
+   "t_ms": 83644,
+   "current_ua": -55468,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2730882
+  },
+  {
+   "t_ms": 84726,
+   "current_ua": -6250,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2730850
+  },
+  {
+   "t_ms": 85815,
+   "current_ua": 7031,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2737198
+  },
+  {
+   "t_ms": 86887,
+   "current_ua": -610937,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2736010
+  },
+  {
+   "t_ms": 87969,
+   "current_ua": 7031,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2735878
+  },
+  {
+   "t_ms": 89046,
+   "current_ua": -59375,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2733862
+  },
+  {
+   "t_ms": 90130,
+   "current_ua": -2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2737530
+  },
+  {
+   "t_ms": 91220,
+   "current_ua": 10156,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2737286
+  },
+  {
+   "t_ms": 92309,
+   "current_ua": 13281,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2740242
+  },
+  {
+   "t_ms": 93407,
+   "current_ua": 781,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2743754
+  },
+  {
+   "t_ms": 94491,
+   "current_ua": -567968,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2746594
+  },
+  {
+   "t_ms": 95585,
+   "current_ua": -40625,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2745906
+  },
+  {
+   "t_ms": 96668,
+   "current_ua": 4687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2746550
+  },
+  {
+   "t_ms": 97746,
+   "current_ua": -234375,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2749154
+  },
+  {
+   "t_ms": 98821,
+   "current_ua": -105468,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2749394
+  },
+  {
+   "t_ms": 99908,
+   "current_ua": -4687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2749466
+  },
+  {
+   "t_ms": 101005,
+   "current_ua": -327343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2750698
+  },
+  {
+   "t_ms": 102073,
+   "current_ua": -389062,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2750974
+  },
+  {
+   "t_ms": 103155,
+   "current_ua": 4687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2751062
+  },
+  {
+   "t_ms": 104254,
+   "current_ua": -7812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2750674
+  },
+  {
+   "t_ms": 105353,
+   "current_ua": -153906,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2752818
+  },
+  {
+   "t_ms": 106442,
+   "current_ua": -7812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2752806
+  },
+  {
+   "t_ms": 107522,
+   "current_ua": -8593,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2753598
+  },
+  {
+   "t_ms": 108612,
+   "current_ua": -164843,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2754190
+  },
+  {
+   "t_ms": 109699,
+   "current_ua": -593750,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2757678
+  },
+  {
+   "t_ms": 110781,
+   "current_ua": -175000,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2758042
+  },
+  {
+   "t_ms": 111885,
+   "current_ua": -6250,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2757398
+  },
+  {
+   "t_ms": 112971,
+   "current_ua": -503125,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2759594
+  },
+  {
+   "t_ms": 114044,
+   "current_ua": -235937,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2759882
+  },
+  {
+   "t_ms": 115130,
+   "current_ua": -2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2759914
+  },
+  {
+   "t_ms": 116198,
+   "current_ua": -7812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2758198
+  },
+  {
+   "t_ms": 117286,
+   "current_ua": -121875,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2762474
+  },
+  {
+   "t_ms": 118386,
+   "current_ua": -1562,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2762166
+  },
+  {
+   "t_ms": 119474,
+   "current_ua": 781,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2764638
+  },
+  {
+   "t_ms": 120539,
+   "current_ua": -3125,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2765102
+  },
+  {
+   "t_ms": 121626,
+   "current_ua": -3125,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2764934
+  },
+  {
+   "t_ms": 122720,
+   "current_ua": -5468,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2765130
+  },
+  {
+   "t_ms": 123793,
+   "current_ua": 7031,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2761474
+  },
+  {
+   "t_ms": 124869,
+   "current_ua": -132812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2763218
+  },
+  {
+   "t_ms": 125974,
+   "current_ua": 781,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2762930
+  },
+  {
+   "t_ms": 127059,
+   "current_ua": -25000,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2763766
+  },
+  {
+   "t_ms": 128154,
+   "current_ua": -219531,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2766394
+  },
+  {
+   "t_ms": 129245,
+   "current_ua": -561718,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2766706
+  },
+  {
+   "t_ms": 130363,
+   "current_ua": -2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2765746
+  },
+  {
+   "t_ms": 131434,
+   "current_ua": -546093,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2768602
+  },
+  {
+   "t_ms": 132521,
+   "current_ua": -259375,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2769174
+  },
+  {
+   "t_ms": 133593,
+   "current_ua": -104687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2769498
+  },
+  {
+   "t_ms": 134681,
+   "current_ua": -1562,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2769842
+  },
+  {
+   "t_ms": 135762,
+   "current_ua": -532812,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2771454
+  },
+  {
+   "t_ms": 136834,
+   "current_ua": -348437,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2771754
+  },
+  {
+   "t_ms": 137923,
+   "current_ua": 781,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2771694
+  },
+  {
+   "t_ms": 139011,
+   "current_ua": 7031,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2771690
+  },
+  {
+   "t_ms": 140098,
+   "current_ua": -342187,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2775358
+  },
+  {
+   "t_ms": 141212,
+   "current_ua": -102343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2775774
+  },
+  {
+   "t_ms": 142318,
+   "current_ua": -3125,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2774778
+  },
+  {
+   "t_ms": 143418,
+   "current_ua": 2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4252,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2775146
+  },
+  {
+   "t_ms": 144492,
+   "current_ua": 4687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2777166
+  },
+  {
+   "t_ms": 145581,
+   "current_ua": 1562,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2777190
+  },
+  {
+   "t_ms": 146667,
+   "current_ua": -21875,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2777110
+  },
+  {
+   "t_ms": 147756,
+   "current_ua": -576562,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2779858
+  },
+  {
+   "t_ms": 148833,
+   "current_ua": -104687,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2779954
+  },
+  {
+   "t_ms": 149919,
+   "current_ua": 7031,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2780318
+  },
+  {
+   "t_ms": 151012,
+   "current_ua": -2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 1,
+   "pss_kb": 2779870
+  },
+  {
+   "t_ms": 152096,
+   "current_ua": 2343,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2782374
+  },
+  {
+   "t_ms": 153184,
+   "current_ua": -285156,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2782654
+  },
+  {
+   "t_ms": 154269,
+   "current_ua": 781,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2782842
+  },
+  {
+   "t_ms": 155348,
+   "current_ua": -92968,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2780762
+  },
+  {
+   "t_ms": 156436,
+   "current_ua": -445312,
+   "charge_uah": 4080000,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2781058
+  },
+  {
+   "t_ms": 157523,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2781142
+  },
+  {
+   "t_ms": 158587,
+   "current_ua": -264843,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2782602
+  },
+  {
+   "t_ms": 159676,
+   "current_ua": -127343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2782846
+  },
+  {
+   "t_ms": 160761,
+   "current_ua": 5468,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2783122
+  },
+  {
+   "t_ms": 161855,
+   "current_ua": 0,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2783074
+  },
+  {
+   "t_ms": 162922,
+   "current_ua": -43750,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2784866
+  },
+  {
+   "t_ms": 163994,
+   "current_ua": -439062,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2785838
+  },
+  {
+   "t_ms": 165106,
+   "current_ua": 5468,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2784054
+  },
+  {
+   "t_ms": 166178,
+   "current_ua": 1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2785034
+  },
+  {
+   "t_ms": 167267,
+   "current_ua": -377343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2787366
+  },
+  {
+   "t_ms": 168356,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2788370
+  },
+  {
+   "t_ms": 169459,
+   "current_ua": -3125,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2787282
+  },
+  {
+   "t_ms": 170531,
+   "current_ua": -9375,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2789530
+  },
+  {
+   "t_ms": 171626,
+   "current_ua": -97656,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2789698
+  },
+  {
+   "t_ms": 172711,
+   "current_ua": 10937,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2789630
+  },
+  {
+   "t_ms": 173784,
+   "current_ua": 10937,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2791050
+  },
+  {
+   "t_ms": 174858,
+   "current_ua": -297656,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2791330
+  },
+  {
+   "t_ms": 175944,
+   "current_ua": -7812,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2791266
+  },
+  {
+   "t_ms": 177020,
+   "current_ua": -6250,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2791326
+  },
+  {
+   "t_ms": 178122,
+   "current_ua": -313281,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2794054
+  },
+  {
+   "t_ms": 179194,
+   "current_ua": -427343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2794718
+  },
+  {
+   "t_ms": 180291,
+   "current_ua": -4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2794326
+  },
+  {
+   "t_ms": 181362,
+   "current_ua": -12500,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2797170
+  },
+  {
+   "t_ms": 182448,
+   "current_ua": -67187,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2797462
+  },
+  {
+   "t_ms": 183539,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2797366
+  },
+  {
+   "t_ms": 184633,
+   "current_ua": 781,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2797446
+  },
+  {
+   "t_ms": 185699,
+   "current_ua": -46875,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2796446
+  },
+  {
+   "t_ms": 186807,
+   "current_ua": -8593,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2799930
+  },
+  {
+   "t_ms": 187893,
+   "current_ua": 4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2799714
+  },
+  {
+   "t_ms": 188978,
+   "current_ua": -2343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2800134
+  },
+  {
+   "t_ms": 190066,
+   "current_ua": -17187,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2798990
+  },
+  {
+   "t_ms": 191164,
+   "current_ua": -182812,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2799430
+  },
+  {
+   "t_ms": 192257,
+   "current_ua": 4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2798558
+  },
+  {
+   "t_ms": 193352,
+   "current_ua": 5468,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2800630
+  },
+  {
+   "t_ms": 194445,
+   "current_ua": -175000,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2800922
+  },
+  {
+   "t_ms": 195534,
+   "current_ua": -37500,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2800878
+  },
+  {
+   "t_ms": 196626,
+   "current_ua": -6250,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2800962
+  },
+  {
+   "t_ms": 197692,
+   "current_ua": -427343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2802742
+  },
+  {
+   "t_ms": 198770,
+   "current_ua": 781,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2802818
+  },
+  {
+   "t_ms": 199855,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2802774
+  },
+  {
+   "t_ms": 200942,
+   "current_ua": 1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2805134
+  },
+  {
+   "t_ms": 202022,
+   "current_ua": -210156,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2805374
+  },
+  {
+   "t_ms": 203108,
+   "current_ua": -416406,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2804922
+  },
+  {
+   "t_ms": 204210,
+   "current_ua": -185937,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2804914
+  },
+  {
+   "t_ms": 205297,
+   "current_ua": 2343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2805450
+  },
+  {
+   "t_ms": 206387,
+   "current_ua": -132812,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2806326
+  },
+  {
+   "t_ms": 207467,
+   "current_ua": 3906,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2807290
+  },
+  {
+   "t_ms": 208558,
+   "current_ua": -32031,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2808206
+  },
+  {
+   "t_ms": 209638,
+   "current_ua": 781,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2809106
+  },
+  {
+   "t_ms": 210738,
+   "current_ua": 3906,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2809990
+  },
+  {
+   "t_ms": 211826,
+   "current_ua": -8593,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2810822
+  },
+  {
+   "t_ms": 212904,
+   "current_ua": 14062,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2811838
+  },
+  {
+   "t_ms": 213998,
+   "current_ua": -4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2812978
+  },
+  {
+   "t_ms": 215092,
+   "current_ua": 4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2813882
+  },
+  {
+   "t_ms": 216183,
+   "current_ua": -6250,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2814770
+  },
+  {
+   "t_ms": 217277,
+   "current_ua": 0,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2815674
+  },
+  {
+   "t_ms": 218371,
+   "current_ua": -76562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2816634
+  },
+  {
+   "t_ms": 219465,
+   "current_ua": -7812,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2817582
+  },
+  {
+   "t_ms": 220552,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2816426
+  },
+  {
+   "t_ms": 221647,
+   "current_ua": -5468,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2816654
+  },
+  {
+   "t_ms": 222716,
+   "current_ua": -115625,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2816538
+  },
+  {
+   "t_ms": 223803,
+   "current_ua": -427343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2818538
+  },
+  {
+   "t_ms": 224891,
+   "current_ua": -404687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2818866
+  },
+  {
+   "t_ms": 225976,
+   "current_ua": 7031,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2818810
+  },
+  {
+   "t_ms": 227071,
+   "current_ua": -24218,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2818874
+  },
+  {
+   "t_ms": 228161,
+   "current_ua": -143750,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2820946
+  },
+  {
+   "t_ms": 229274,
+   "current_ua": -38281,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2820870
+  },
+  {
+   "t_ms": 230380,
+   "current_ua": -21875,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2820346
+  },
+  {
+   "t_ms": 231459,
+   "current_ua": 14062,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2819654
+  },
+  {
+   "t_ms": 232541,
+   "current_ua": -62500,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2823238
+  },
+  {
+   "t_ms": 233620,
+   "current_ua": -4687,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2823514
+  },
+  {
+   "t_ms": 234708,
+   "current_ua": -124218,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2823330
+  },
+  {
+   "t_ms": 235799,
+   "current_ua": 7031,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2825810
+  },
+  {
+   "t_ms": 236895,
+   "current_ua": -240625,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2826094
+  },
+  {
+   "t_ms": 237984,
+   "current_ua": -10937,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2826002
+  },
+  {
+   "t_ms": 239080,
+   "current_ua": 2343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2826006
+  },
+  {
+   "t_ms": 240171,
+   "current_ua": -548437,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2828054
+  },
+  {
+   "t_ms": 241264,
+   "current_ua": -60156,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2828602
+  },
+  {
+   "t_ms": 242351,
+   "current_ua": -98437,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2828842
+  },
+  {
+   "t_ms": 243426,
+   "current_ua": -5468,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2828834
+  },
+  {
+   "t_ms": 244496,
+   "current_ua": -471875,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2830266
+  },
+  {
+   "t_ms": 245572,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2829922
+  },
+  {
+   "t_ms": 246668,
+   "current_ua": -14062,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2831202
+  },
+  {
+   "t_ms": 247755,
+   "current_ua": -171875,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2831530
+  },
+  {
+   "t_ms": 248826,
+   "current_ua": 2343,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2832082
+  },
+  {
+   "t_ms": 249925,
+   "current_ua": -332812,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2831158
+  },
+  {
+   "t_ms": 251017,
+   "current_ua": -3125,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2831982
+  },
+  {
+   "t_ms": 252093,
+   "current_ua": -1562,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2833130
+  },
+  {
+   "t_ms": 252889,
+   "current_ua": 3906,
+   "charge_uah": 4077500,
+   "voltage_mv": 4250,
+   "plugged": 2,
+   "level": 80,
+   "thermal": 2,
+   "pss_kb": 2833942
+  }
+ ],
+ "items": [
+  {
+   "id": "L01",
+   "q": "Maru Cafe Wi-Fi password",
+   "top3": [
+    "n01",
+    "m02",
+    "r02"
+   ],
+   "scores": [
+    0.77280193567276,
+    0.49141252040863037,
+    0.45930391550064087
+   ],
+   "query_embed_ms": 42.261056,
+   "query_tokenize_ms": 0.322864,
+   "score_ms": 13.148552,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Maru Cafe Wi-Fi password는 latte2026 입니다.",
+   "answer": "Maru Cafe Wi-Fi password는 latte2026 입니다.",
+   "cited": [
+    "n01"
+   ],
+   "gate_ms": 1112.559033,
+   "answer_ms": 2159.193332,
+   "verify": {
+    "n01": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 43.057188,
+   "cited_before_verify": [
+    "n01"
+   ],
+   "first_token_ms": 883.959875
+  },
+  {
+   "id": "L02",
+   "q": "Blue Lantern Bistro confirmation number",
+   "top3": [
+    "b01",
+    "n05",
+    "m04"
+   ],
+   "scores": [
+    0.6663609743118286,
+    0.5737890005111694,
+    0.5287019610404968
+   ],
+   "query_embed_ms": 59.580806,
+   "query_tokenize_ms": 0.462864,
+   "score_ms": 1.143464,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Reservation confirmed의 확인 번호는 BL-4821입니다.",
+   "answer": "Reservation confirmed의 확인 번호는 BL-4821입니다.",
+   "cited": [
+    "b01"
+   ],
+   "gate_ms": 933.116186,
+   "answer_ms": 2177.508253,
+   "verify": {
+    "b01": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.690677,
+   "cited_before_verify": [
+    "b01"
+   ],
+   "first_token_ms": 873.684989
+  },
+  {
+   "id": "L03",
+   "q": "한빛식당 휴무일",
+   "top3": [
+    "n02",
+    "b03",
+    "m01"
+   ],
+   "scores": [
+    0.7425113320350647,
+    0.4820706844329834,
+    0.41625261306762695
+   ],
+   "query_embed_ms": 44.778124,
+   "query_tokenize_ms": 0.374964,
+   "score_ms": 1.160651,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 한빛식당은 10월 9일(금) 한글날 하루 휴무하며, 10월 10일(토)부터 정상 영업합니다.",
+   "answer": "한빛식당은 10월 9일(금) 한글날 하루 휴무하며, 10월 10일(토)부터 정상 영업합니다.",
+   "cited": [
+    "n02"
+   ],
+   "gate_ms": 939.092139,
+   "answer_ms": 3572.700267,
+   "verify": {
+    "n02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.370652,
+   "cited_before_verify": [
+    "n02"
+   ],
+   "first_token_ms": 872.869275
+  },
+  {
+   "id": "L04",
+   "q": "Lot B overnight parking rule",
+   "top3": [
+    "p02",
+    "p04",
+    "p09"
+   ],
+   "scores": [
+    0.6632786393165588,
+    0.49577757716178894,
+    0.4520866274833679
+   ],
+   "query_embed_ms": 42.479973,
+   "query_tokenize_ms": 0.325078,
+   "score_ms": 1.178229,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Lot B의 야간 주차는 2 AM부터 5 AM까지 금지되며 위반 차량은 소유주의 비용으로 견인됩니다.",
+   "answer": "Lot B의 야간 주차는 2 AM부터 5 AM까지 금지되며 위반 차량은 소유주의 비용으로 견인됩니다.",
+   "cited": [
+    "p02"
+   ],
+   "gate_ms": 851.227281,
+   "answer_ms": 2955.980925,
+   "verify": {
+    "p02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.349714,
+   "cited_before_verify": [
+    "p02"
+   ],
+   "first_token_ms": 786.451292
+  },
+  {
+   "id": "L05",
+   "q": "Kaze Ramen card minimum",
+   "top3": [
+    "n07",
+    "r04",
+    "b04"
+   ],
+   "scores": [
+    0.7273976802825928,
+    0.5264356136322021,
+    0.49863675236701965
+   ],
+   "query_embed_ms": 51.951015,
+   "query_tokenize_ms": 0.292995,
+   "score_ms": 1.045312,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Kaze Ramen의 카드 최소 금액은 $10입니다.",
+   "answer": "Kaze Ramen의 카드 최소 금액은 $10입니다.",
+   "cited": [
+    "n07"
+   ],
+   "gate_ms": 917.956134,
+   "answer_ms": 1943.579178,
+   "verify": {
+    "n07": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.345676,
+   "cited_before_verify": [
+    "n07"
+   ],
+   "first_token_ms": 788.038958
+  },
+  {
+   "id": "L06",
+   "q": "용문각 배달 최소 주문 금액",
+   "top3": [
+    "n09",
+    "m11",
+    "r08"
+   ],
+   "scores": [
+    0.7705599665641785,
+    0.6005117893218994,
+    0.4527510702610016
+   ],
+   "query_embed_ms": 48.900417,
+   "query_tokenize_ms": 0.259583,
+   "score_ms": 1.110207,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 용문각 배달 최소 주문 금액은 $25입니다.",
+   "answer": "용문각 배달 최소 주문 금액은 $25입니다.",
+   "cited": [
+    "n09"
+   ],
+   "gate_ms": 932.308529,
+   "answer_ms": 2211.765285,
+   "verify": {
+    "n09": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.795598,
+   "cited_before_verify": [
+    "n09"
+   ],
+   "first_token_ms": 883.073764
+  },
+  {
+   "id": "L07",
+   "q": "Pine Hill Bakery opening time from October 20",
+   "top3": [
+    "n03",
+    "r07",
+    "m05"
+   ],
+   "scores": [
+    0.7325084805488586,
+    0.5721343159675598,
+    0.5346096754074097
+   ],
+   "query_embed_ms": 61.797863,
+   "query_tokenize_ms": 0.73663,
+   "score_ms": 1.575912,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Pine Hill Bakery는 10월 20일에 오전 7시에 문을 엽니다.",
+   "answer": "Pine Hill Bakery는 10월 20일에 오전 7시에 문을 엽니다.",
+   "cited": [
+    "n03"
+   ],
+   "gate_ms": 950.870613,
+   "answer_ms": 2682.433065,
+   "verify": {
+    "n03": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.73776,
+   "cited_before_verify": [
+    "n03"
+   ],
+   "first_token_ms": 873.061031
+  },
+  {
+   "id": "L08",
+   "q": "Ember & Oak reservation party size",
+   "top3": [
+    "b02",
+    "p11",
+    "m08"
+   ],
+   "scores": [
+    0.5930790305137634,
+    0.5106934905052185,
+    0.49284014105796814
+   ],
+   "query_embed_ms": 65.626145,
+   "query_tokenize_ms": 0.61862,
+   "score_ms": 1.514505,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Ember & Oak의 예약 인원은 6명입니다.",
+   "answer": "Ember & Oak의 예약 인원은 6명입니다.",
+   "cited": [
+    "b02"
+   ],
+   "gate_ms": 940.36892,
+   "answer_ms": 2116.841823,
+   "verify": {
+    "b02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.713646,
+   "cited_before_verify": [
+    "b02"
+   ],
+   "first_token_ms": 878.29899
+  },
+  {
+   "id": "L09",
+   "q": "Maple Plaza garage clearance height",
+   "top3": [
+    "p08",
+    "p01",
+    "x03"
+   ],
+   "scores": [
+    0.7057854533195496,
+    0.4622689485549927,
+    0.3290826082229614
+   ],
+   "query_embed_ms": 52.300816,
+   "query_tokenize_ms": 0.53902,
+   "score_ms": 1.285339,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Maple Plaza garage의 클리어런스 높이는 6'8\" (2.03 m)입니다.",
+   "answer": "Maple Plaza garage의 클리어런스 높이는 6'8\" (2.03 m)입니다.",
+   "cited": [
+    "p08"
+   ],
+   "gate_ms": 893.178165,
+   "answer_ms": 2782.33788,
+   "verify": {
+    "p08": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.56663,
+   "cited_before_verify": [
+    "p08"
+   ],
+   "first_token_ms": 819.035848
+  },
+  {
+   "id": "L10",
+   "q": "Corner Slice happy hour",
+   "top3": [
+    "n10",
+    "m12",
+    "r12"
+   ],
+   "scores": [
+    0.7328405380249023,
+    0.4809632897377014,
+    0.35148191452026367
+   ],
+   "query_embed_ms": 54.082994,
+   "query_tokenize_ms": 0.470208,
+   "score_ms": 1.52539,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Corner Slice의 해피아워는 오후 3시부터 5시까지입니다.",
+   "answer": "Corner Slice의 해피아워는 오후 3시부터 5시까지입니다.",
+   "cited": [
+    "n10"
+   ],
+   "gate_ms": 953.370639,
+   "answer_ms": 2597.080445,
+   "verify": {
+    "n10": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.539219,
+   "cited_before_verify": [
+    "n10"
+   ],
+   "first_token_ms": 923.987081
+  },
+  {
+   "id": "L11",
+   "q": "Nami Sushi omakase deposit",
+   "top3": [
+    "b05",
+    "r09",
+    "m15"
+   ],
+   "scores": [
+    0.6447354555130005,
+    0.5412055850028992,
+    0.49240660667419434
+   ],
+   "query_embed_ms": 51.578707,
+   "query_tokenize_ms": 0.551625,
+   "score_ms": 1.162865,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Deposit paid $50",
+   "answer": "Deposit paid $50",
+   "cited": [
+    "b05"
+   ],
+   "gate_ms": 946.696394,
+   "answer_ms": 1691.718729,
+   "verify": {
+    "b05": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.624688,
+   "cited_before_verify": [
+    "b05"
+   ],
+   "first_token_ms": 873.522541
+  },
+  {
+   "id": "L12",
+   "q": "Siam Garden level 5 refund policy",
+   "top3": [
+    "n12",
+    "b07",
+    "m18"
+   ],
+   "scores": [
+    0.6053134799003601,
+    0.45677077770233154,
+    0.4145697057247162
+   ],
+   "query_embed_ms": 62.671587,
+   "query_tokenize_ms": 0.549556,
+   "score_ms": 1.689062,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Level 5 dishes are not refundable",
+   "answer": "Level 5 dishes are not refundable",
+   "cited": [
+    "n12"
+   ],
+   "gate_ms": 1032.630092,
+   "answer_ms": 1847.371018,
+   "verify": {
+    "n12": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.773437,
+   "cited_before_verify": [
+    "n12"
+   ],
+   "first_token_ms": 904.133817
+  },
+  {
+   "id": "P01",
+   "q": "How long can I park for free at Maple Plaza if a store stamps my ticket?",
+   "top3": [
+    "p01",
+    "p08",
+    "x03"
+   ],
+   "scores": [
+    0.6673153638839722,
+    0.4797908067703247,
+    0.4715680181980133
+   ],
+   "query_embed_ms": 56.346156,
+   "query_tokenize_ms": 0.98099,
+   "score_ms": 1.247161,
+   "gate_raw": "MAPLE PLAZA PARKING",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: First 90 min FREE with validation",
+   "answer": "First 90 min FREE with validation",
+   "cited": [
+    "p01"
+   ],
+   "gate_ms": 1221.257343,
+   "answer_ms": 1808.07581,
+   "verify": {
+    "p01": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.694453,
+   "cited_before_verify": [
+    "p01"
+   ],
+   "first_token_ms": 802.987395
+  },
+  {
+   "id": "P02",
+   "q": "What time do we need to be at the Korean BBQ place on Friday?",
+   "top3": [
+    "b02",
+    "m08",
+    "r08"
+   ],
+   "scores": [
+    0.5484921932220459,
+    0.4471418261528015,
+    0.3929706811904907
+   ],
+   "query_embed_ms": 65.532708,
+   "query_tokenize_ms": 1.095001,
+   "score_ms": 1.277048,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Friday, Oct 30 6:00 PM에 방문해야 합니다.",
+   "answer": "Friday, Oct 30 6:00 PM에 방문해야 합니다.",
+   "cited": [
+    "b02"
+   ],
+   "gate_ms": 974.399102,
+   "answer_ms": 2451.553068,
+   "verify": {
+    "b02": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.682542,
+   "cited_before_verify": [
+    "b02"
+   ],
+   "first_token_ms": 894.783686
+  },
+  {
+   "id": "P03",
+   "q": "How long can my electric car stay at the charger?",
+   "top3": [
+    "p06",
+    "p03",
+    "p04"
+   ],
+   "scores": [
+    0.5039792656898499,
+    0.4064083397388458,
+    0.31486156582832336
+   ],
+   "query_embed_ms": 57.528583,
+   "query_tokenize_ms": 0.832969,
+   "score_ms": 1.3685,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 4 hour maximum while charging",
+   "answer": "4 hour maximum while charging",
+   "cited": [
+    "p06"
+   ],
+   "gate_ms": 921.719677,
+   "answer_ms": 1806.785263,
+   "verify": {
+    "p06": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.961328,
+   "cited_before_verify": [
+    "p06"
+   ],
+   "first_token_ms": 807.138011
+  },
+  {
+   "id": "P04",
+   "q": "What's the internet login at the coffee shop?",
+   "top3": [
+    "n01",
+    "m02",
+    "r12"
+   ],
+   "scores": [
+    0.49674123525619507,
+    0.34967178106307983,
+    0.3278769552707672
+   ],
+   "query_embed_ms": 62.879634,
+   "query_tokenize_ms": 0.870781,
+   "score_ms": 1.342839,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Password는 latte2026입니다.",
+   "answer": "Password는 latte2026입니다.",
+   "cited": [
+    "n01"
+   ],
+   "gate_ms": 1011.095664,
+   "answer_ms": 2211.850595,
+   "verify": {
+    "n01": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.705479,
+   "cited_before_verify": [
+    "n01"
+   ],
+   "first_token_ms": 926.185951
+  },
+  {
+   "id": "P05",
+   "q": "Can I bring my own wine to Blue Lantern and what does it cost?",
+   "top3": [
+    "n05",
+    "m04",
+    "r03"
+   ],
+   "scores": [
+    0.630956768989563,
+    0.4925159811973572,
+    0.44446247816085815
+   ],
+   "query_embed_ms": 61.105547,
+   "query_tokenize_ms": 0.865678,
+   "score_ms": 1.336354,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Corkage fee $20 per bottle",
+   "answer": "Corkage fee $20 per bottle",
+   "cited": [
+    "n05"
+   ],
+   "gate_ms": 1016.143815,
+   "answer_ms": 2256.518732,
+   "verify": {
+    "n05": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.642812,
+   "cited_before_verify": [
+    "n05"
+   ],
+   "first_token_ms": 937.321039
+  },
+  {
+   "id": "P06",
+   "q": "Is the pho place open on Thanksgiving?",
+   "top3": [
+    "n08",
+    "m09",
+    "b11"
+   ],
+   "scores": [
+    0.6196550130844116,
+    0.40690019726753235,
+    0.35581865906715393
+   ],
+   "query_embed_ms": 73.057291,
+   "query_tokenize_ms": 0.63125,
+   "score_ms": 1.593881,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Closed Thanksgiving Day",
+   "answer": "Closed Thanksgiving Day",
+   "cited": [
+    "n08"
+   ],
+   "gate_ms": 1033.303945,
+   "answer_ms": 1830.680455,
+   "verify": {
+    "n08": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.648151,
+   "cited_before_verify": [
+    "n08"
+   ],
+   "first_token_ms": 921.728071
+  },
+  {
+   "id": "P07",
+   "q": "Is my truck too tall for the Maple Plaza garage?",
+   "top3": [
+    "p08",
+    "p01",
+    "x03"
+   ],
+   "scores": [
+    0.6340409517288208,
+    0.42219278216362,
+    0.30704253911972046
+   ],
+   "query_embed_ms": 63.445025,
+   "query_tokenize_ms": 0.717526,
+   "score_ms": 1.448359,
+   "gate_raw": "MAPLE PLAZA GARAGE",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 사진1에 따르면 6'8\" (2.03 m) 이상의 차량을 사용하는 곳이 있습니다.",
+   "answer": "사진1에 따르면 6'8\" (2.03 m) 이상의 차량을 사용하는 곳이 있습니다.",
+   "cited": [
+    "p08"
+   ],
+   "gate_ms": 1368.41553,
+   "answer_ms": 3546.45984,
+   "verify": {
+    "p08": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.752578,
+   "cited_before_verify": [
+    "p08"
+   ],
+   "first_token_ms": 867.131941
+  },
+  {
+   "id": "P08",
+   "q": "When can I pick up the donuts I ordered ahead?",
+   "top3": [
+    "b12",
+    "b06",
+    "m16"
+   ],
+   "scores": [
+    0.541321873664856,
+    0.415468692779541,
+    0.38897573947906494
+   ],
+   "query_embed_ms": 66.273645,
+   "query_tokenize_ms": 0.668333,
+   "score_ms": 1.303844,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Pickup Sat, Oct 31 8:00 AM",
+   "answer": "Pickup Sat, Oct 31 8:00 AM",
+   "cited": [
+    "b12"
+   ],
+   "gate_ms": 1042.495481,
+   "answer_ms": 2574.752623,
+   "verify": {
+    "b12": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.906458,
+   "cited_before_verify": [
+    "b12"
+   ],
+   "first_token_ms": 844.338818
+  },
+  {
+   "id": "P09",
+   "q": "How long until we get a seat at the ramen shop?",
+   "top3": [
+    "b04",
+    "r04",
+    "b05"
+   ],
+   "scores": [
+    0.5322934985160828,
+    0.44771498441696167,
+    0.41457444429397583
+   ],
+   "query_embed_ms": 58.467942,
+   "query_tokenize_ms": 0.753046,
+   "score_ms": 1.28888,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Estimated wait 25 min",
+   "answer": "Estimated wait 25 min",
+   "cited": [
+    "b04"
+   ],
+   "gate_ms": 1040.283788,
+   "answer_ms": 2094.974349,
+   "verify": {
+    "b04": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.706224,
+   "cited_before_verify": [
+    "b04"
+   ],
+   "first_token_ms": 926.372671
+  },
+  {
+   "id": "P10",
+   "q": "What time should we show up for the sushi counter dinner?",
+   "top3": [
+    "b05",
+    "r09",
+    "b01"
+   ],
+   "scores": [
+    0.4737841784954071,
+    0.3971646726131439,
+    0.35534852743148804
+   ],
+   "query_embed_ms": 64.45302,
+   "query_tokenize_ms": 0.791614,
+   "score_ms": 1.392578,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Sat, Nov 7 8:00 PM",
+   "answer": "Sat, Nov 7 8:00 PM",
+   "cited": [
+    "b05"
+   ],
+   "gate_ms": 1021.199804,
+   "answer_ms": 2526.478587,
+   "verify": {
+    "b05": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.548568,
+   "cited_before_verify": [
+    "b05"
+   ],
+   "first_token_ms": 921.864806
+  },
+  {
+   "id": "P11",
+   "q": "고기 남기면 돈 더 내야 해?",
+   "top3": [
+    "m08",
+    "m01",
+    "m03"
+   ],
+   "scores": [
+    0.44979873299598694,
+    0.3338882625102997,
+    0.3129515051841736
+   ],
+   "query_embed_ms": 60.273255,
+   "query_tokenize_ms": 0.391797,
+   "score_ms": 1.311093,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 남긴 고기 1인분당 $10.00을 내야 합니다.",
+   "answer": "남긴 고기 1인분당 $10.00을 내야 합니다.",
+   "cited": [
+    "m08"
+   ],
+   "gate_ms": 1251.172146,
+   "answer_ms": 3428.728577,
+   "verify": {
+    "m08": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.501625,
+   "cited_before_verify": [
+    "m08"
+   ],
+   "first_token_ms": 1126.243996
+  },
+  {
+   "id": "P12",
+   "q": "생일에 가면 뭐 공짜로 주는 데 있었는데",
+   "top3": [
+    "n06",
+    "n10",
+    "m08"
+   ],
+   "scores": [
+    0.47322404384613037,
+    0.3039870262145996,
+    0.28178006410598755
+   ],
+   "query_embed_ms": 67.083958,
+   "query_tokenize_ms": 0.448099,
+   "score_ms": 1.373671,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 생일 당일 방문 시 디저트 무료",
+   "answer": "생일 당일 방문 시 디저트 무료",
+   "cited": [
+    "n06"
+   ],
+   "gate_ms": 1045.070142,
+   "answer_ms": 2503.277728,
+   "verify": {
+    "n06": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.491537,
+   "cited_before_verify": [
+    "n06"
+   ],
+   "first_token_ms": 1014.094127
+  },
+  {
+   "id": "P13",
+   "q": "중국집 배달시키면 배달료 얼마야?",
+   "top3": [
+    "m11",
+    "n09",
+    "r08"
+   ],
+   "scores": [
+    0.52599036693573,
+    0.48113128542900085,
+    0.42676129937171936
+   ],
+   "query_embed_ms": 60.142228,
+   "query_tokenize_ms": 0.412318,
+   "score_ms": 1.415766,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진2\n답변: 배달비는 $4.99입니다.",
+   "answer": "배달비는 $4.99입니다.",
+   "cited": [
+    "n09"
+   ],
+   "gate_ms": 1046.286081,
+   "answer_ms": 2479.783693,
+   "verify": {
+    "n09": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.660234,
+   "cited_before_verify": [
+    "n09"
+   ],
+   "first_token_ms": 930.051238
+  },
+  {
+   "id": "P14",
+   "q": "밤 몇 시 전에 주차장에서 차 빼야 돼?",
+   "top3": [
+    "p07",
+    "p02",
+    "p09"
+   ],
+   "scores": [
+    0.4683689773082733,
+    0.4079158902168274,
+    0.40530386567115784
+   ],
+   "query_embed_ms": 64.569219,
+   "query_tokenize_ms": 0.453698,
+   "score_ms": 1.371145,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 24시 이후 출차 불가",
+   "answer": "24시 이후 출차 불가",
+   "cited": [
+    "p07"
+   ],
+   "gate_ms": 918.868618,
+   "answer_ms": 2185.217785,
+   "verify": {
+    "p07": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.634453,
+   "cited_before_verify": [
+    "p07"
+   ],
+   "first_token_ms": 868.547749
+  },
+  {
+   "id": "P15",
+   "q": "순두부집 오후에 쉬는 시간 언제야?",
+   "top3": [
+    "n04",
+    "m03",
+    "n02"
+   ],
+   "scores": [
+    0.5767675042152405,
+    0.39948830008506775,
+    0.3569490909576416
+   ],
+   "query_embed_ms": 65.478671,
+   "query_tokenize_ms": 0.406354,
+   "score_ms": 1.311719,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 주문 마감은 14:30입니다.",
+   "answer": "주문 마감은 14:30입니다.",
+   "cited": [
+    "n04"
+   ],
+   "gate_ms": 1031.865169,
+   "answer_ms": 2587.724212,
+   "verify": {
+    "n04": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.72289,
+   "cited_before_verify": [
+    "n04"
+   ],
+   "first_token_ms": 932.810171
+  },
+  {
+   "id": "C01",
+   "q": "메이플 플라자 주차 하루 최대 요금",
+   "top3": [
+    "p01",
+    "p08",
+    "x03"
+   ],
+   "scores": [
+    0.5840134620666504,
+    0.46419277787208557,
+    0.45346972346305847
+   ],
+   "query_embed_ms": 60.063134,
+   "query_tokenize_ms": 0.416781,
+   "score_ms": 1.533048,
+   "gate_raw": "MAPLE PLAZA PARKING",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 메이플 플라자 주차 하루 최대 요금은 $18입니다.",
+   "answer": "메이플 플라자 주차 하루 최대 요금은 $18입니다.",
+   "cited": [
+    "p01"
+   ],
+   "gate_ms": 1323.365972,
+   "answer_ms": 2978.919779,
+   "verify": {
+    "p01": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.56887,
+   "cited_before_verify": [
+    "p01"
+   ],
+   "first_token_ms": 841.120249
+  },
+  {
+   "id": "C02",
+   "q": "블루 랜턴 예약 몇 명이야?",
+   "top3": [
+    "b01",
+    "n05",
+    "m04"
+   ],
+   "scores": [
+    0.45015549659729004,
+    0.3997059166431427,
+    0.3728850483894348
+   ],
+   "query_embed_ms": 63.557056,
+   "query_tokenize_ms": 0.381276,
+   "score_ms": 1.32237,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 예약 인원은 4명입니다.",
+   "answer": "예약 인원은 4명입니다.",
+   "cited": [
+    "b01"
+   ],
+   "gate_ms": 1036.007314,
+   "answer_ms": 2307.118762,
+   "verify": {
+    "b01": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.792708,
+   "cited_before_verify": [
+    "b01"
+   ],
+   "first_token_ms": 1001.167488
+  },
+  {
+   "id": "C03",
+   "q": "아기 의자 부탁한 아침 식당 예약 몇 시야?",
+   "top3": [
+    "b09",
+    "x06",
+    "b03"
+   ],
+   "scores": [
+    0.43623438477516174,
+    0.42978233098983765,
+    0.40138939023017883
+   ],
+   "query_embed_ms": 64.74526,
+   "query_tokenize_ms": 0.438594,
+   "score_ms": 1.431719,
+   "gate_raw": "없음",
+   "gate_yes": false,
+   "raw": "",
+   "answer": "",
+   "cited": [],
+   "gate_ms": 1012.805987,
+   "answer_ms": 0,
+   "verify": {},
+   "verify_ms": 0,
+   "cited_before_verify": [],
+   "first_token_ms": null
+  },
+  {
+   "id": "C04",
+   "q": "태국 식당 매운맛 5단계는 환불돼?",
+   "top3": [
+    "n12",
+    "m18",
+    "r06"
+   ],
+   "scores": [
+    0.5126728415489197,
+    0.39499178528785706,
+    0.31710708141326904
+   ],
+   "query_embed_ms": 51.279817,
+   "query_tokenize_ms": 0.404974,
+   "score_ms": 1.283073,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Level 5의 음식은 환불되지 않습니다.",
+   "answer": "Level 5의 음식은 환불되지 않습니다.",
+   "cited": [
+    "n12"
+   ],
+   "gate_ms": 1030.383857,
+   "answer_ms": 2467.434588,
+   "verify": {
+    "n12": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.847058,
+   "cited_before_verify": [
+    "n12"
+   ],
+   "first_token_ms": 941.070883
+  },
+  {
+   "id": "C05",
+   "q": "카페 와이파이 이름 뭐였지?",
+   "top3": [
+    "n01",
+    "m02",
+    "r02"
+   ],
+   "scores": [
+    0.49377375841140747,
+    0.34004271030426025,
+    0.26080968976020813
+   ],
+   "query_embed_ms": 64.895962,
+   "query_tokenize_ms": 0.379052,
+   "score_ms": 1.636615,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 카페 와이파이 이름은 MARU GUEST 입니다.",
+   "answer": "카페 와이파이 이름은 MARU GUEST 입니다.",
+   "cited": [
+    "n01"
+   ],
+   "gate_ms": 1053.961862,
+   "answer_ms": 2675.660696,
+   "verify": {
+    "n01": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.513871,
+   "cited_before_verify": [
+    "n01"
+   ],
+   "first_token_ms": 938.123436
+  },
+  {
+   "id": "C06",
+   "q": "Can I take my dog into Daon Tea Room?",
+   "top3": [
+    "n11",
+    "b08",
+    "m19"
+   ],
+   "scores": [
+    0.7299190759658813,
+    0.4626569449901581,
+    0.45879101753234863
+   ],
+   "query_embed_ms": 60.37065,
+   "query_tokenize_ms": 0.574271,
+   "score_ms": 1.286823,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 반려동물은 테라스석만 가능하며 실내 동반은 불가합니다.",
+   "answer": "반려동물은 테라스석만 가능하며 실내 동반은 불가합니다.",
+   "cited": [
+    "n11"
+   ],
+   "gate_ms": 1114.947589,
+   "answer_ms": 3160.133511,
+   "verify": {
+    "n11": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.696787,
+   "cited_before_verify": [
+    "n11"
+   ],
+   "first_token_ms": 1033.975908
+  },
+  {
+   "id": "C07",
+   "q": "Hanbit Mall parking: how long is free with a receipt?",
+   "top3": [
+    "p03",
+    "p02",
+    "p01"
+   ],
+   "scores": [
+    0.5931606292724609,
+    0.4635976254940033,
+    0.43694067001342773
+   ],
+   "query_embed_ms": 63.109505,
+   "query_tokenize_ms": 0.743063,
+   "score_ms": 1.280052,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 영수증 지참 시 2시간 무료입니다.",
+   "answer": "영수증 지참 시 2시간 무료입니다.",
+   "cited": [
+    "p03"
+   ],
+   "gate_ms": 973.342175,
+   "answer_ms": 2499.154562,
+   "verify": {
+    "p03": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.873126,
+   "cited_before_verify": [
+    "p03"
+   ],
+   "first_token_ms": 876.697291
+  },
+  {
+   "id": "C08",
+   "q": "Which day in October is Hanbit Kitchen closed?",
+   "top3": [
+    "n02",
+    "r01",
+    "b03"
+   ],
+   "scores": [
+    0.5429445505142212,
+    0.5055302977561951,
+    0.4957214295864105
+   ],
+   "query_embed_ms": 54.198671,
+   "query_tokenize_ms": 0.676041,
+   "score_ms": 1.267422,
+   "gate_raw": "사진1",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 한빛식당은 10월 9일(금)에 하루 휴무합니다.",
+   "answer": "한빛식당은 10월 9일(금)에 하루 휴무합니다.",
+   "cited": [
+    "n02"
+   ],
+   "gate_ms": 1031.290065,
+   "answer_ms": 3267.107172,
+   "verify": {
+    "n02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.589271,
+   "cited_before_verify": [
+    "n02"
+   ],
+   "first_token_ms": 925.510316
+  },
+  {
+   "id": "C09",
+   "q": "How many people is my Hanbit Kitchen reservation for?",
+   "top3": [
+    "b03",
+    "r01",
+    "m01"
+   ],
+   "scores": [
+    0.5209629535675049,
+    0.49350258708000183,
+    0.46783387660980225
+   ],
+   "query_embed_ms": 65.118124,
+   "query_tokenize_ms": 0.751239,
+   "score_ms": 1.279818,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 예약은 3명입니다.",
+   "answer": "예약은 3명입니다.",
+   "cited": [
+    "b03"
+   ],
+   "gate_ms": 1060.515299,
+   "answer_ms": 2172.15544,
+   "verify": {
+    "b03": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.66026,
+   "cited_before_verify": [
+    "b03"
+   ],
+   "first_token_ms": 948.003112
+  },
+  {
+   "id": "C10",
+   "q": "What's the delivery fee at Dragon Gate?",
+   "top3": [
+    "r08",
+    "n09",
+    "m11"
+   ],
+   "scores": [
+    0.5836459398269653,
+    0.5299685597419739,
+    0.48950129747390747
+   ],
+   "query_embed_ms": 63.930478,
+   "query_tokenize_ms": 0.616963,
+   "score_ms": 1.577595,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Delivery fee는 $4.99입니다.",
+   "answer": "Delivery fee는 $4.99입니다.",
+   "cited": [
+    "r08"
+   ],
+   "gate_ms": 1031.186784,
+   "answer_ms": 2383.239162,
+   "verify": {
+    "r08": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 1.01052,
+   "cited_before_verify": [
+    "r08"
+   ],
+   "first_token_ms": 932.205248
+  },
+  {
+   "id": "N01",
+   "q": "Misugaru latte price at Maru Cafe",
+   "top3": [
+    "m02",
+    "r02",
+    "x02"
+   ],
+   "scores": [
+    0.6937255859375,
+    0.6556030511856079,
+    0.6135036945343018
+   ],
+   "query_embed_ms": 61.964843,
+   "query_tokenize_ms": 0.532604,
+   "score_ms": 1.575677,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Misugaru Latte의 가격은 $6.25입니다.",
+   "answer": "Misugaru Latte의 가격은 $6.25입니다.",
+   "cited": [
+    "m02"
+   ],
+   "gate_ms": 1041.952252,
+   "answer_ms": 2729.791959,
+   "verify": {
+    "m02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.585427,
+   "cited_before_verify": [
+    "m02"
+   ],
+   "first_token_ms": 932.385092
+  },
+  {
+   "id": "N02",
+   "q": "용문각 탕수육 대 가격",
+   "top3": [
+    "m11",
+    "n09",
+    "r08"
+   ],
+   "scores": [
+    0.6130338907241821,
+    0.5374636054039001,
+    0.4898190498352051
+   ],
+   "query_embed_ms": 69.842187,
+   "query_tokenize_ms": 0.36499,
+   "score_ms": 1.352994,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 용문각 탕수육 (대) 가격은 $28.99입니다.",
+   "answer": "용문각 탕수육 (대) 가격은 $28.99입니다.",
+   "cited": [
+    "m11"
+   ],
+   "gate_ms": 1032.42293,
+   "answer_ms": 3237.200947,
+   "verify": {
+    "m11": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.569219,
+   "cited_before_verify": [
+    "m11"
+   ],
+   "first_token_ms": 974.684179
+  },
+  {
+   "id": "N03",
+   "q": "Ember & Oak dinner all-you-can-eat price",
+   "top3": [
+    "m08",
+    "b02",
+    "p11"
+   ],
+   "scores": [
+    0.6424087882041931,
+    0.5396398305892944,
+    0.5253195762634277
+   ],
+   "query_embed_ms": 59.782057,
+   "query_tokenize_ms": 0.604818,
+   "score_ms": 1.290417,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 디너 A는 $36.99입니다.",
+   "answer": "디너 A는 $36.99입니다.",
+   "cited": [
+    "m08"
+   ],
+   "gate_ms": 1042.215768,
+   "answer_ms": 2591.219899,
+   "verify": {
+    "m08": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 1.041927,
+   "cited_before_verify": [
+    "m08"
+   ],
+   "first_token_ms": 964.096847
+  },
+  {
+   "id": "N04",
+   "q": "What was the total on my Hanbit Kitchen receipt?",
+   "top3": [
+    "m01",
+    "r01",
+    "x01"
+   ],
+   "scores": [
+    0.5597457885742188,
+    0.4939567446708679,
+    0.4237433075904846
+   ],
+   "query_embed_ms": 59.747708,
+   "query_tokenize_ms": 0.692239,
+   "score_ms": 1.283776,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진2\n답변: TOTAL $49.68",
+   "answer": "TOTAL $49.68",
+   "cited": [
+    "r01"
+   ],
+   "gate_ms": 1051.452774,
+   "answer_ms": 2178.689565,
+   "verify": {
+    "r01": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.946702,
+   "cited_before_verify": [
+    "r01"
+   ],
+   "first_token_ms": 949.676326
+  },
+  {
+   "id": "N05",
+   "q": "How much tip did I leave at Maru Cafe?",
+   "top3": [
+    "r02",
+    "m02",
+    "x02"
+   ],
+   "scores": [
+    0.5582345724105835,
+    0.5314037203788757,
+    0.500291109085083
+   ],
+   "query_embed_ms": 60.665191,
+   "query_tokenize_ms": 0.571078,
+   "score_ms": 1.319219,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Tip으로 남긴 금액은 $3.50입니다.",
+   "answer": "Tip으로 남긴 금액은 $3.50입니다.",
+   "cited": [
+    "r02"
+   ],
+   "gate_ms": 1042.964388,
+   "answer_ms": 2706.616007,
+   "verify": {
+    "r02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.580547,
+   "cited_before_verify": [
+    "r02"
+   ],
+   "first_token_ms": 956.827202
+  },
+  {
+   "id": "N06",
+   "q": "Al pastor taco price at La Brisa",
+   "top3": [
+    "m06",
+    "r05",
+    "m11"
+   ],
+   "scores": [
+    0.7164322733879089,
+    0.6872820258140564,
+    0.40359631180763245
+   ],
+   "query_embed_ms": 64.623306,
+   "query_tokenize_ms": 0.554365,
+   "score_ms": 1.394479,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Al Pastor Taco의 가격은 $3.75입니다.",
+   "answer": "Al Pastor Taco의 가격은 $3.75입니다.",
+   "cited": [
+    "m06"
+   ],
+   "gate_ms": 1040.377044,
+   "answer_ms": 2650.293065,
+   "verify": {
+    "m06": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.827151,
+   "cited_before_verify": [
+    "m06"
+   ],
+   "first_token_ms": 967.429076
+  },
+  {
+   "id": "N07",
+   "q": "Total for the Hilltop Burgers pickup order",
+   "top3": [
+    "b10",
+    "m14",
+    "r10"
+   ],
+   "scores": [
+    0.7342968583106995,
+    0.6545605659484863,
+    0.6180221438407898
+   ],
+   "query_embed_ms": 89.210937,
+   "query_tokenize_ms": 0.895417,
+   "score_ms": 2.400312,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진3\n답변: Total for the Hilltop Burgers pickup order는 $28.74입니다.",
+   "answer": "Total for the Hilltop Burgers pickup order는 $28.74입니다.",
+   "cited": [
+    "r10"
+   ],
+   "gate_ms": 1054.706846,
+   "answer_ms": 3071.498493,
+   "verify": {
+    "r10": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.586328,
+   "cited_before_verify": [
+    "r10"
+   ],
+   "first_token_ms": 987.48728
+  },
+  {
+   "id": "N08",
+   "q": "EV charging price per kWh",
+   "top3": [
+    "p06",
+    "p03",
+    "p10"
+   ],
+   "scores": [
+    0.5591407418251038,
+    0.34668657183647156,
+    0.29205384850502014
+   ],
+   "query_embed_ms": 66.240379,
+   "query_tokenize_ms": 0.513073,
+   "score_ms": 1.533292,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: EV charging price per kWh는 $0.35 per kWh이다.",
+   "answer": "EV charging price per kWh는 $0.35 per kWh이다.",
+   "cited": [
+    "p06"
+   ],
+   "gate_ms": 1005.146262,
+   "answer_ms": 2776.922812,
+   "verify": {
+    "p06": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.926943,
+   "cited_before_verify": [
+    "p06"
+   ],
+   "first_token_ms": 879.231248
+  },
+  {
+   "id": "N09",
+   "q": "How much tax was on the Blue Lantern brunch receipt?",
+   "top3": [
+    "m04",
+    "n05",
+    "r03"
+   ],
+   "scores": [
+    0.5206195712089539,
+    0.48564448952674866,
+    0.4465010464191437
+   ],
+   "query_embed_ms": 55.038047,
+   "query_tokenize_ms": 0.766814,
+   "score_ms": 1.308567,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진3\n답변: Tax는 $5.70이었습니다.",
+   "answer": "Tax는 $5.70이었습니다.",
+   "cited": [
+    "r03"
+   ],
+   "gate_ms": 1133.03771,
+   "answer_ms": 2486.482063,
+   "verify": {
+    "r03": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.602995,
+   "cited_before_verify": [
+    "r03"
+   ],
+   "first_token_ms": 1002.291587
+  },
+  {
+   "id": "N10",
+   "q": "서울분식 김밥 얼마?",
+   "top3": [
+    "m17",
+    "x01",
+    "m11"
+   ],
+   "scores": [
+    0.6477177143096924,
+    0.5561245679855347,
+    0.4470956325531006
+   ],
+   "query_embed_ms": 64.142838,
+   "query_tokenize_ms": 0.369687,
+   "score_ms": 1.464973,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 서울분식 김밥은 $7.99이다.",
+   "answer": "서울분식 김밥은 $7.99이다.",
+   "cited": [
+    "m17"
+   ],
+   "gate_ms": 1091.068501,
+   "answer_ms": 2715.113404,
+   "verify": {
+    "m17": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.756901,
+   "cited_before_verify": [
+    "m17"
+   ],
+   "first_token_ms": 986.270664
+  },
+  {
+   "id": "D01",
+   "q": "Black sesame affogato price at Maru Cafe",
+   "top3": [
+    "r02",
+    "m02",
+    "x02"
+   ],
+   "scores": [
+    0.612297534942627,
+    0.597980260848999,
+    0.5729105472564697
+   ],
+   "query_embed_ms": 66.987436,
+   "query_tokenize_ms": 0.613514,
+   "score_ms": 1.344098,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진2\n답변: Black Sesame Affogato의 가격은 $7.75입니다.",
+   "answer": "Black Sesame Affogato의 가격은 $7.75입니다.",
+   "cited": [
+    "m02"
+   ],
+   "gate_ms": 1032.056045,
+   "answer_ms": 2796.427126,
+   "verify": {
+    "m02": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.896927,
+   "cited_before_verify": [
+    "m02"
+   ],
+   "first_token_ms": 941.01405
+  },
+  {
+   "id": "D02",
+   "q": "소라 순두부 굴 순두부 가격",
+   "top3": [
+    "m03",
+    "n04",
+    "m17"
+   ],
+   "scores": [
+    0.5720608830451965,
+    0.5558070540428162,
+    0.4380604922771454
+   ],
+   "query_embed_ms": 58.35789,
+   "query_tokenize_ms": 0.415052,
+   "score_ms": 1.290391,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 소라 순두부의 가격은 기본 순두부 $15.99, 해물 순두부 $17.49, 소고기 순두부 $16.99, 돼지고기 순두부 $16.49, 버섯 순두부 $15.99, 햄 치즈 순두부 $16.49, 만두 순두부 $16.49, 김치 순두부 $15.99, 순두부+ 갈비 콤보 $27.99, 순두부+ 불고기 콤보 $25.99, 순두부 + 고등어 콤보 $24.99, 계란 추가 $1.00, 공기밥 추가 $2.50, 굴순두부(계절 한정) $18.99이다.",
+   "answer": "소라 순두부의 가격은 기본 순두부 $15.99, 해물 순두부 $17.49, 소고기 순두부 $16.99, 돼지고기 순두부 $16.49, 버섯 순두부 $15.99, 햄 치즈 순두부 $16.49, 만두 순두부 $16.49, 김치 순두부 $15.99, 순두부+ 갈비 콤보 $27.99, 순두부+ 불고기 콤보 $25.99, 순두부 + 고등어 콤보 $24.99, 계란 추가 $1.00, 공기밥 추가 $2.50, 굴순두부(계절 한정) $18.99이다.",
+   "cited": [
+    "m03"
+   ],
+   "gate_ms": 1036.850091,
+   "answer_ms": 17736.810153,
+   "verify": {
+    "m03": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.575834,
+   "cited_before_verify": [
+    "m03"
+   ],
+   "first_token_ms": 936.121056
+  },
+  {
+   "id": "D03",
+   "q": "Duck confit hash at Blue Lantern",
+   "top3": [
+    "m04",
+    "n05",
+    "b01"
+   ],
+   "scores": [
+    0.46180468797683716,
+    0.4353898763656616,
+    0.42070794105529785
+   ],
+   "query_embed_ms": 79.087212,
+   "query_tokenize_ms": 0.585209,
+   "score_ms": 1.595287,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: Duck Confit Hash는 $24.00입니다.",
+   "answer": "Duck Confit Hash는 $24.00입니다.",
+   "cited": [
+    "m04"
+   ],
+   "gate_ms": 1071.720247,
+   "answer_ms": 2654.265955,
+   "verify": {
+    "m04": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.772354,
+   "cited_before_verify": [
+    "m04"
+   ],
+   "first_token_ms": 939.214206
+  },
+  {
+   "id": "D04",
+   "q": "엠버앤오크 차돌박이 추가 가격",
+   "top3": [
+    "m08",
+    "p11",
+    "m03"
+   ],
+   "scores": [
+    0.5727959275245667,
+    0.5035391449928284,
+    0.4861638844013214
+   ],
+   "query_embed_ms": 61.408645,
+   "query_tokenize_ms": 0.51862,
+   "score_ms": 2.266771,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 차돌박이 추가 가격은 $12.99입니다.",
+   "answer": "차돌박이 추가 가격은 $12.99입니다.",
+   "cited": [
+    "m08"
+   ],
+   "gate_ms": 1069.985195,
+   "answer_ms": 2800.093037,
+   "verify": {
+    "m08": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.585295,
+   "cited_before_verify": [
+    "m08"
+   ],
+   "first_token_ms": 953.171707
+  },
+  {
+   "id": "D05",
+   "q": "용문각 삼선짬뽕 얼마야",
+   "top3": [
+    "m11",
+    "n09",
+    "r08"
+   ],
+   "scores": [
+    0.6264771819114685,
+    0.4980959892272949,
+    0.4499213695526123
+   ],
+   "query_embed_ms": 61.646198,
+   "query_tokenize_ms": 0.360261,
+   "score_ms": 1.302578,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 용문각 삼선짬뽕은 $16.99입니다.",
+   "answer": "용문각 삼선짬뽕은 $16.99입니다.",
+   "cited": [
+    "m11"
+   ],
+   "gate_ms": 1103.406079,
+   "answer_ms": 2941.227176,
+   "verify": {
+    "m11": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.630338,
+   "cited_before_verify": [
+    "m11"
+   ],
+   "first_token_ms": 988.167488
+  },
+  {
+   "id": "D06",
+   "q": "Yuzu shio ramen price at Kaze",
+   "top3": [
+    "r04",
+    "m07",
+    "n07"
+   ],
+   "scores": [
+    0.6450594663619995,
+    0.6173301339149475,
+    0.5621383190155029
+   ],
+   "query_embed_ms": 61.369749,
+   "query_tokenize_ms": 0.505193,
+   "score_ms": 1.279714,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진2\n답변: Yuzu Shio Ramen의 가격은 $17.50입니다.",
+   "answer": "Yuzu Shio Ramen의 가격은 $17.50입니다.",
+   "cited": [
+    "m07"
+   ],
+   "gate_ms": 1102.793893,
+   "answer_ms": 2978.157159,
+   "verify": {
+    "m07": "keep: 질문에 아는 가게 없음"
+   },
+   "verify_ms": 0.673932,
+   "cited_before_verify": [
+    "m07"
+   ],
+   "first_token_ms": 988.218643
+  },
+  {
+   "id": "D07",
+   "q": "Khao soi at Siam Garden — how much?",
+   "top3": [
+    "r06",
+    "m18",
+    "n12"
+   ],
+   "scores": [
+    0.5930787920951843,
+    0.571943461894989,
+    0.499263197183609
+   ],
+   "query_embed_ms": 74.967707,
+   "query_tokenize_ms": 0.86163,
+   "score_ms": 1.455338,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진2\n답변: Khao Soi Chicken의 가격은 $17.95이다.",
+   "answer": "Khao Soi Chicken의 가격은 $17.95이다.",
+   "cited": [
+    "m18"
+   ],
+   "gate_ms": 1098.708527,
+   "answer_ms": 2899.237577,
+   "verify": {
+    "m18": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.820156,
+   "cited_before_verify": [
+    "m18"
+   ],
+   "first_token_ms": 989.606897
+  },
+  {
+   "id": "D08",
+   "q": "다온 찻집 오미자차 가격",
+   "top3": [
+    "m19",
+    "n11",
+    "b08"
+   ],
+   "scores": [
+    0.6509952545166016,
+    0.5184337496757507,
+    0.4951801002025604
+   ],
+   "query_embed_ms": 63.611744,
+   "query_tokenize_ms": 0.373047,
+   "score_ms": 1.58913,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진1\n답변: 오미자차의 가격은 $6.50입니다.",
+   "answer": "오미자차의 가격은 $6.50입니다.",
+   "cited": [
+    "m19"
+   ],
+   "gate_ms": 1041.718554,
+   "answer_ms": 2712.770252,
+   "verify": {
+    "m19": "keep: 사진에 그 가게 이름 있음"
+   },
+   "verify_ms": 0.594948,
+   "cited_before_verify": [
+    "m19"
+   ],
+   "first_token_ms": 930.829911
+  },
+  {
+   "id": "A01",
+   "q": "Hanbit Kitchen Wi-Fi password",
+   "top3": [
+    "n01",
+    "m01",
+    "r01"
+   ],
+   "scores": [
+    0.4667743742465973,
+    0.4413309693336487,
+    0.3952186405658722
+   ],
+   "query_embed_ms": 86.211248,
+   "query_tokenize_ms": 0.612969,
+   "score_ms": 1.606068,
+   "gate_raw": "없음",
+   "gate_yes": false,
+   "raw": "",
+   "answer": "",
+   "cited": [],
+   "gate_ms": 1051.298319,
+   "answer_ms": 0,
+   "verify": {},
+   "verify_ms": 0,
+   "cited_before_verify": [],
+   "first_token_ms": null
+  },
+  {
+   "id": "A02",
+   "q": "Does Corner Slice validate parking?",
+   "top3": [
+    "n10",
+    "p01",
+    "x03"
+   ],
+   "scores": [
+    0.5363728404045105,
+    0.4823198616504669,
+    0.43430644273757935
+   ],
+   "query_embed_ms": 63.799243,
+   "query_tokenize_ms": 0.70711,
+   "score_ms": 1.384601,
+   "gate_raw": "없음",
+   "gate_yes": false,
+   "raw": "",
+   "answer": "",
+   "cited": [],
+   "gate_ms": 923.724806,
+   "answer_ms": 0,
+   "verify": {},
+   "verify_ms": 0,
+   "cited_before_verify": [],
+   "first_token_ms": null
+  },
+  {
+   "id": "A03",
+   "q": "Nami Sushi corkage fee",
+   "top3": [
+    "m15",
+    "r09",
+    "b05"
+   ],
+   "scores": [
+    0.5361193418502808,
+    0.5258969664573669,
+    0.5011597275733948
+   ],
+   "query_embed_ms": 58.483999,
+   "query_tokenize_ms": 0.334296,
+   "score_ms": 1.520479,
+   "gate_raw": "없음",
+   "gate_yes": false,
+   "raw": "",
+   "answer": "",
+   "cited": [],
+   "gate_ms": 1019.842512,
+   "answer_ms": 0,
+   "verify": {},
+   "verify_ms": 0,
+   "cited_before_verify": [],
+   "first_token_ms": null
+  },
+  {
+   "id": "A04",
+   "q": "서울분식 예약 번호",
+   "top3": [
+    "m17",
+    "x01",
+    "b03"
+   ],
+   "scores": [
+    0.44985127449035645,
+    0.4067189693450928,
+    0.4042714238166809
+   ],
+   "query_embed_ms": 57.452577,
+   "query_tokenize_ms": 0.234636,
+   "score_ms": 1.472735,
+   "gate_raw": "없음",
+   "gate_yes": false,
+   "raw": "",
+   "answer": "",
+   "cited": [],
+   "gate_ms": 1025.41505,
+   "answer_ms": 0,
+   "verify": {},
+   "verify_ms": 0,
+   "cited_before_verify": [],
+   "first_token_ms": null
+  },
+  {
+   "id": "A05",
+   "q": "Moonrise Donuts happy hour",
+   "top3": [
+    "m16",
+    "b12",
+    "n10"
+   ],
+   "scores": [
+    0.601090133190155,
+    0.5434690713882446,
+    0.409973680973053
+   ],
+   "query_embed_ms": 86.360414,
+   "query_tokenize_ms": 0.54604,
+   "score_ms": 1.622865,
+   "gate_raw": "있음",
+   "gate_yes": true,
+   "raw": "근거: 사진3\n답변: Corner Slice의 해피아워는 오후 3시부터 5시까지이며, 슬라이스에 대해 2달러 할인입니다.",
+   "answer": "Corner Slice의 해피아워는 오후 3시부터 5시까지이며, 슬라이스에 대해 2달러 할인입니다.",
+   "cited": [],
+   "gate_ms": 932.531577,
+   "answer_ms": 4052.285053,
+   "verify": {
+    "n10": "drop: 질문 [moonrisedonuts] \/ 사진 [cornerslice]"
+   },
+   "verify_ms": 0.915053,
+   "cited_before_verify": [
+    "n10"
+   ],
+   "first_token_ms": 839.134625
+  }
+ ]
+}

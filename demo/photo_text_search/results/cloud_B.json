@@ -1,0 +1,1570 @@
+{
+ "arm": "B",
+ "model": "models/gemini-flash-latest",
+ "files": {},
+ "items": [
+  {
+   "id": "L01",
+   "q": "Maru Cafe Wi-Fi password",
+   "raw": "근거: 사진11\n답변: The Wi-Fi password for Maru Cafe is latte2026.",
+   "answer": "The Wi-Fi password for Maru Cafe is latte2026.",
+   "cited": [
+    "n01"
+   ],
+   "latency_ms": 3210.8,
+   "req_bytes": 20035,
+   "resp_bytes": 1195,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 6345,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 88,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L02",
+   "q": "Blue Lantern Bistro confirmation number",
+   "raw": "근거: 사진49\n답변: The confirmation number for Blue Lantern Bistro is #BL-4821.",
+   "answer": "The confirmation number for Blue Lantern Bistro is #BL-4821.",
+   "cited": [
+    "b01"
+   ],
+   "latency_ms": 4677.6,
+   "req_bytes": 20050,
+   "resp_bytes": 1926,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 6504,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 249,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L03",
+   "q": "한빛식당 휴무일",
+   "raw": "근거: 사진05\n답변: 한빛식당의 휴무일은 10월 9일(금) 한글날입니다.",
+   "answer": "한빛식당의 휴무일은 10월 9일(금) 한글날입니다.",
+   "cited": [
+    "n02"
+   ],
+   "latency_ms": 4139.2,
+   "req_bytes": 20054,
+   "resp_bytes": 1326,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 34,
+    "totalTokenCount": 6380,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 115,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L04",
+   "q": "Lot B overnight parking rule",
+   "raw": "근거: 사진10\n답변: No overnight parking is allowed from 2 AM to 5 AM, and violators will be towed at the owner's expense.",
+   "answer": "No overnight parking is allowed from 2 AM to 5 AM, and violators will be towed at the owner's expense.",
+   "cited": [
+    "p02"
+   ],
+   "latency_ms": 3101.2,
+   "req_bytes": 20039,
+   "resp_bytes": 1720,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 36,
+    "totalTokenCount": 6439,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 174,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L05",
+   "q": "Kaze Ramen card minimum",
+   "raw": "근거: 사진19\n답변: The card minimum at Kaze Ramen is $10.",
+   "answer": "The card minimum at Kaze Ramen is $10.",
+   "cited": [
+    "n07"
+   ],
+   "latency_ms": 3175.0,
+   "req_bytes": 20034,
+   "resp_bytes": 1035,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 6299,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 48,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L06",
+   "q": "용문각 배달 최소 주문 금액",
+   "raw": "근거: 사진33\n답변: 용문각의 배달 최소 주문 금액은 $25입니다.",
+   "answer": "용문각의 배달 최소 주문 금액은 $25입니다.",
+   "cited": [
+    "n09"
+   ],
+   "latency_ms": 3597.6,
+   "req_bytes": 20081,
+   "resp_bytes": 1435,
+   "usage": {
+    "promptTokenCount": 6232,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6391,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6232
+     }
+    ],
+    "thoughtsTokenCount": 134,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L07",
+   "q": "Pine Hill Bakery opening time from October 20",
+   "raw": "근거: 사진48\n답변: Starting October 20, Pine Hill Bakery opens at 7 AM.",
+   "answer": "Starting October 20, Pine Hill Bakery opens at 7 AM.",
+   "cited": [
+    "n03"
+   ],
+   "latency_ms": 2791.7,
+   "req_bytes": 20056,
+   "resp_bytes": 1430,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6397,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 138,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L08",
+   "q": "Ember & Oak reservation party size",
+   "raw": "근거: 사진76\n답변: The reservation party size for Ember & Oak is a party of 6.",
+   "answer": "The reservation party size for Ember & Oak is a party of 6.",
+   "cited": [
+    "b02"
+   ],
+   "latency_ms": 3307.8,
+   "req_bytes": 20045,
+   "resp_bytes": 1617,
+   "usage": {
+    "promptTokenCount": 6230,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6441,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6230
+     }
+    ],
+    "thoughtsTokenCount": 186,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L09",
+   "q": "Maple Plaza garage clearance height",
+   "raw": "근거: 사진17\n답변: The clearance height for Maple Plaza Garage is 6'8\" (2.03 m).",
+   "answer": "The clearance height for Maple Plaza Garage is 6'8\" (2.03 m).",
+   "cited": [
+    "p08"
+   ],
+   "latency_ms": 3014.3,
+   "req_bytes": 20046,
+   "resp_bytes": 1712,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 6453,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 194,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L10",
+   "q": "Corner Slice happy hour",
+   "raw": "근거: 사진43\n답변: Corner Slice's happy hour is from 3 - 5 PM on weekdays only, offering $2 off any slice.",
+   "answer": "Corner Slice's happy hour is from 3 - 5 PM on weekdays only, offering $2 off any slice.",
+   "cited": [
+    "n10"
+   ],
+   "latency_ms": 4296.5,
+   "req_bytes": 20034,
+   "resp_bytes": 1769,
+   "usage": {
+    "promptTokenCount": 6228,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 6466,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6228
+     }
+    ],
+    "thoughtsTokenCount": 203,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L11",
+   "q": "Nami Sushi omakase deposit",
+   "raw": "근거: 사진60\n답변: The deposit paid for the Nami Sushi omakase reservation is $50.",
+   "answer": "The deposit paid for the Nami Sushi omakase reservation is $50.",
+   "cited": [
+    "b05"
+   ],
+   "latency_ms": 3569.1,
+   "req_bytes": 20037,
+   "resp_bytes": 1513,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 6428,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "L12",
+   "q": "Siam Garden level 5 refund policy",
+   "raw": "근거: 사진58\n답변: Level 5 dishes are not refundable.",
+   "answer": "Level 5 dishes are not refundable.",
+   "cited": [
+    "n12"
+   ],
+   "latency_ms": 3929.7,
+   "req_bytes": 20044,
+   "resp_bytes": 1572,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 6420,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 171,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P01",
+   "q": "How long can I park for free at Maple Plaza if a store stamps my ticket?",
+   "raw": "근거: 사진50\n답변: You can park for free for the first 90 minutes with validation.",
+   "answer": "You can park for free for the first 90 minutes with validation.",
+   "cited": [
+    "p01"
+   ],
+   "latency_ms": 4122.9,
+   "req_bytes": 20083,
+   "resp_bytes": 1777,
+   "usage": {
+    "promptTokenCount": 6241,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6463,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6241
+     }
+    ],
+    "thoughtsTokenCount": 197,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P02",
+   "q": "What time do we need to be at the Korean BBQ place on Friday?",
+   "raw": "근거: 사진76\n답변: You need to be at the Korean BBQ place at 6:00 PM on Friday.",
+   "answer": "You need to be at the Korean BBQ place at 6:00 PM on Friday.",
+   "cited": [
+    "b02"
+   ],
+   "latency_ms": 4090.4,
+   "req_bytes": 20072,
+   "resp_bytes": 2393,
+   "usage": {
+    "promptTokenCount": 6239,
+    "candidatesTokenCount": 28,
+    "totalTokenCount": 6647,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6239
+     }
+    ],
+    "thoughtsTokenCount": 380,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P03",
+   "q": "How long can my electric car stay at the charger?",
+   "raw": "근거: 사진03\n답변: You can stay for a maximum of 4 hours while charging.",
+   "answer": "You can stay for a maximum of 4 hours while charging.",
+   "cited": [
+    "p06"
+   ],
+   "latency_ms": 2447.3,
+   "req_bytes": 20060,
+   "resp_bytes": 1570,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 23,
+    "totalTokenCount": 6411,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 153,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P04",
+   "q": "What's the internet login at the coffee shop?",
+   "raw": "근거: 사진11\n답변: The Wi-Fi network is MARU GUEST and the password is latte2026.",
+   "answer": "The Wi-Fi network is MARU GUEST and the password is latte2026.",
+   "cited": [
+    "n01"
+   ],
+   "latency_ms": 4083.1,
+   "req_bytes": 20056,
+   "resp_bytes": 1592,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 6432,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 167,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P05",
+   "q": "Can I bring my own wine to Blue Lantern and what does it cost?",
+   "raw": "근거: 사진21\n답변: Yes, you can bring wine with a corkage fee of $20 per bottle, with a limit of 2 bottles per table.",
+   "answer": "Yes, you can bring wine with a corkage fee of $20 per bottle, with a limit of 2 bottles per table.",
+   "cited": [
+    "n05"
+   ],
+   "latency_ms": 4257.3,
+   "req_bytes": 20073,
+   "resp_bytes": 2308,
+   "usage": {
+    "promptTokenCount": 6239,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 6572,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6239
+     }
+    ],
+    "thoughtsTokenCount": 295,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P06",
+   "q": "Is the pho place open on Thanksgiving?",
+   "raw": "근거: 사진55\n답변: No, the pho place is closed on Thanksgiving Day.",
+   "answer": "No, the pho place is closed on Thanksgiving Day.",
+   "cited": [
+    "n08"
+   ],
+   "latency_ms": 3624.3,
+   "req_bytes": 20049,
+   "resp_bytes": 1802,
+   "usage": {
+    "promptTokenCount": 6232,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 6465,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6232
+     }
+    ],
+    "thoughtsTokenCount": 212,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P07",
+   "q": "Is my truck too tall for the Maple Plaza garage?",
+   "raw": "근거: 사진17\n답변: Maple Plaza Garage has a clearance of 6'8\" (2.03 m), and oversized vehicles must use the surface lot.",
+   "answer": "Maple Plaza Garage has a clearance of 6'8\" (2.03 m), and oversized vehicles must use the surface lot.",
+   "cited": [
+    "p08"
+   ],
+   "latency_ms": 5550.7,
+   "req_bytes": 20059,
+   "resp_bytes": 2672,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 6654,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 381,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P08",
+   "q": "When can I pick up the donuts I ordered ahead?",
+   "raw": "근거: 사진53\n답변: You can pick up your order on Sat, Oct 31 at 8:00 AM.",
+   "answer": "You can pick up your order on Sat, Oct 31 at 8:00 AM.",
+   "cited": [
+    "b12"
+   ],
+   "latency_ms": 3880.5,
+   "req_bytes": 20057,
+   "resp_bytes": 1455,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 6432,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 166,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P09",
+   "q": "How long until we get a seat at the ramen shop?",
+   "raw": "근거: 사진74\n답변: The estimated wait is 25 min.",
+   "answer": "The estimated wait is 25 min.",
+   "cited": [
+    "b04"
+   ],
+   "latency_ms": 2748.8,
+   "req_bytes": 20058,
+   "resp_bytes": 1571,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 19,
+    "totalTokenCount": 6432,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 177,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P10",
+   "q": "What time should we show up for the sushi counter dinner?",
+   "raw": "근거: 사진60\n답변: You should show up at 8:00 PM.",
+   "answer": "You should show up at 8:00 PM.",
+   "cited": [
+    "b05"
+   ],
+   "latency_ms": 4311.7,
+   "req_bytes": 20068,
+   "resp_bytes": 2380,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 6649,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 391,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P11",
+   "q": "고기 남기면 돈 더 내야 해?",
+   "raw": "근거: [사진01]\n답변: 남긴 고기는 1인분당 $10.00를 내야 합니다.",
+   "answer": "남긴 고기는 1인분당 $10.00를 내야 합니다.",
+   "cited": [
+    "m08"
+   ],
+   "latency_ms": 2979.4,
+   "req_bytes": 20077,
+   "resp_bytes": 1351,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 32,
+    "totalTokenCount": 6397,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 130,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P12",
+   "q": "생일에 가면 뭐 공짜로 주는 데 있었는데",
+   "raw": "근거: 사진23\n답변: 엠버앤오크에서 생일 당일 방문 시 디저트를 무료로 제공합니다.",
+   "answer": "엠버앤오크에서 생일 당일 방문 시 디저트를 무료로 제공합니다.",
+   "cited": [
+    "n06"
+   ],
+   "latency_ms": 3898.4,
+   "req_bytes": 20113,
+   "resp_bytes": 1412,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 6376,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 110,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P13",
+   "q": "중국집 배달시키면 배달료 얼마야?",
+   "raw": "근거: 사진33, 사진59, 사진67\n답변: 중국집 배달비는 $4.99입니다.",
+   "answer": "중국집 배달비는 $4.99입니다.",
+   "cited": [
+    "n09",
+    "m11",
+    "r08"
+   ],
+   "latency_ms": 9939.3,
+   "req_bytes": 20099,
+   "resp_bytes": 4837,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 7268,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 1001,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P14",
+   "q": "밤 몇 시 전에 주차장에서 차 빼야 돼?",
+   "raw": "근거: 사진70\n답변: 24시 이후에는 출차가 불가능하므로 24시 전에 차를 빼야 합니다.",
+   "answer": "24시 이후에는 출차가 불가능하므로 24시 전에 차를 빼야 합니다.",
+   "cited": [
+    "p07"
+   ],
+   "latency_ms": 10479.4,
+   "req_bytes": 20103,
+   "resp_bytes": 5928,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 7466,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 1197,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "P15",
+   "q": "순두부집 오후에 쉬는 시간 언제야?",
+   "raw": "근거: 사진22\n답변: 소라 순두부의 브레이크 타임(쉬는 시간)은 15:00- 17:00입니다.",
+   "answer": "소라 순두부의 브레이크 타임(쉬는 시간)은 15:00- 17:00입니다.",
+   "cited": [
+    "n04"
+   ],
+   "latency_ms": 7294.3,
+   "req_bytes": 20100,
+   "resp_bytes": 1670,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 6519,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C01",
+   "q": "메이플 플라자 주차 하루 최대 요금",
+   "raw": "근거: 사진50\n답변: 메이플 플라자 주차의 하루 최대 요금은 $18입니다.",
+   "answer": "메이플 플라자 주차의 하루 최대 요금은 $18입니다.",
+   "cited": [
+    "p01"
+   ],
+   "latency_ms": 2659.4,
+   "req_bytes": 20100,
+   "resp_bytes": 1492,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 6413,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 148,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C02",
+   "q": "블루 랜턴 예약 몇 명이야?",
+   "raw": "근거: 사진49\n답변: 블루 랜턴 예약 인원은 4명(Party of 4)입니다.",
+   "answer": "블루 랜턴 예약 인원은 4명(Party of 4)입니다.",
+   "cited": [
+    "b01"
+   ],
+   "latency_ms": 3066.0,
+   "req_bytes": 20076,
+   "resp_bytes": 1655,
+   "usage": {
+    "promptTokenCount": 6232,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 6453,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6232
+     }
+    ],
+    "thoughtsTokenCount": 194,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C03",
+   "q": "아기 의자 부탁한 아침 식당 예약 몇 시야?",
+   "raw": "근거: 사진25\n답변: 아기 의자를 요청한 Sunny Side Diner의 예약 시간은 9:00 AM입니다.",
+   "answer": "아기 의자를 요청한 Sunny Side Diner의 예약 시간은 9:00 AM입니다.",
+   "cited": [
+    "b09"
+   ],
+   "latency_ms": 3794.0,
+   "req_bytes": 20115,
+   "resp_bytes": 1787,
+   "usage": {
+    "promptTokenCount": 6239,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 6482,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6239
+     }
+    ],
+    "thoughtsTokenCount": 212,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C04",
+   "q": "태국 식당 매운맛 5단계는 환불돼?",
+   "raw": "근거: 사진58, 사진68\n답변: 아니요, 5단계 메뉴는 환불되지 않습니다(Level 5 dishes are not refundable).",
+   "answer": "아니요, 5단계 메뉴는 환불되지 않습니다(Level 5 dishes are not refundable).",
+   "cited": [
+    "n12",
+    "m18"
+   ],
+   "latency_ms": 4223.8,
+   "req_bytes": 20095,
+   "resp_bytes": 2406,
+   "usage": {
+    "promptTokenCount": 6239,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 6609,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6239
+     }
+    ],
+    "thoughtsTokenCount": 335,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C05",
+   "q": "카페 와이파이 이름 뭐였지?",
+   "raw": "근거: 사진11\n답변: 카페 와이파이 이름(Network)은 MARU GUEST입니다.",
+   "answer": "카페 와이파이 이름(Network)은 MARU GUEST입니다.",
+   "cited": [
+    "n01"
+   ],
+   "latency_ms": 2793.6,
+   "req_bytes": 20081,
+   "resp_bytes": 1437,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6393,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 134,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C06",
+   "q": "Can I take my dog into Daon Tea Room?",
+   "raw": "근거: 사진62\n답변: Pets are only allowed in the terrace seats and are not permitted indoors.",
+   "answer": "Pets are only allowed in the terrace seats and are not permitted indoors.",
+   "cited": [
+    "n11"
+   ],
+   "latency_ms": 5934.6,
+   "req_bytes": 20048,
+   "resp_bytes": 2307,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 6568,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 309,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C07",
+   "q": "Hanbit Mall parking: how long is free with a receipt?",
+   "raw": "근거: 사진41\n답변: Parking is free for 2 hours with a receipt.",
+   "answer": "Parking is free for 2 hours with a receipt.",
+   "cited": [
+    "p03"
+   ],
+   "latency_ms": 3444.9,
+   "req_bytes": 20064,
+   "resp_bytes": 1832,
+   "usage": {
+    "promptTokenCount": 6237,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 6476,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6237
+     }
+    ],
+    "thoughtsTokenCount": 218,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C08",
+   "q": "Which day in October is Hanbit Kitchen closed?",
+   "raw": "근거: 사진05\n답변: Hanbit Kitchen is closed on 10월 9일(금).",
+   "answer": "Hanbit Kitchen is closed on 10월 9일(금).",
+   "cited": [
+    "n02"
+   ],
+   "latency_ms": 10835.7,
+   "req_bytes": 20057,
+   "resp_bytes": 6147,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 7485,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 1225,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C09",
+   "q": "How many people is my Hanbit Kitchen reservation for?",
+   "raw": "근거: 사진51\n답변: Your Hanbit Kitchen reservation is for 3 people.",
+   "answer": "Your Hanbit Kitchen reservation is for 3 people.",
+   "cited": [
+    "b03"
+   ],
+   "latency_ms": 3393.6,
+   "req_bytes": 20064,
+   "resp_bytes": 1690,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 21,
+    "totalTokenCount": 6448,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 192,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "C10",
+   "q": "What's the delivery fee at Dragon Gate?",
+   "raw": "근거: 사진33, 사진67\n답변: The delivery fee at Dragon Gate is $4.99.",
+   "answer": "The delivery fee at Dragon Gate is $4.99.",
+   "cited": [
+    "n09",
+    "r08"
+   ],
+   "latency_ms": 19658.9,
+   "req_bytes": 20050,
+   "resp_bytes": 10497,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 8615,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 2354,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N01",
+   "q": "Misugaru latte price at Maru Cafe",
+   "raw": "근거: 사진30, 사진32\n답변: The price of a Misugaru Latte at Maru Cafe is $6.25.",
+   "answer": "The price of a Misugaru Latte at Maru Cafe is $6.25.",
+   "cited": [
+    "r02",
+    "m02"
+   ],
+   "latency_ms": 3974.8,
+   "req_bytes": 20044,
+   "resp_bytes": 2104,
+   "usage": {
+    "promptTokenCount": 6233,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 6588,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6233
+     }
+    ],
+    "thoughtsTokenCount": 322,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N02",
+   "q": "용문각 탕수육 대 가격",
+   "raw": "근거: 사진59\n답변: 용문각의 탕수육 (대) 가격은 $28.99입니다.",
+   "answer": "용문각의 탕수육 (대) 가격은 $28.99입니다.",
+   "cited": [
+    "m11"
+   ],
+   "latency_ms": 4256.6,
+   "req_bytes": 20068,
+   "resp_bytes": 1557,
+   "usage": {
+    "promptTokenCount": 6233,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 6434,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6233
+     }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N03",
+   "q": "Ember & Oak dinner all-you-can-eat price",
+   "raw": "근거: 사진01\n답변: At Ember & Oak, the dinner all-you-can-eat price is $36.99 for Dinner A and $46.99 for Premium.",
+   "answer": "At Ember & Oak, the dinner all-you-can-eat price is $36.99 for Dinner A and $46.99 for Premium.",
+   "cited": [
+    "m08"
+   ],
+   "latency_ms": 4654.7,
+   "req_bytes": 20051,
+   "resp_bytes": 2649,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 6767,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 486,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N04",
+   "q": "What was the total on my Hanbit Kitchen receipt?",
+   "raw": "근거: 사진78\n답변: The total on your Hanbit Kitchen receipt was $49.68.",
+   "answer": "The total on your Hanbit Kitchen receipt was $49.68.",
+   "cited": [
+    "r01"
+   ],
+   "latency_ms": 3309.3,
+   "req_bytes": 20059,
+   "resp_bytes": 1494,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 6457,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 196,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N05",
+   "q": "How much tip did I leave at Maru Cafe?",
+   "raw": "근거: 사진30\n답변: You left a tip of $3.50 at Maru Cafe.",
+   "answer": "You left a tip of $3.50 at Maru Cafe.",
+   "cited": [
+    "r02"
+   ],
+   "latency_ms": 3045.8,
+   "req_bytes": 20049,
+   "resp_bytes": 1514,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6483,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 223,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N06",
+   "q": "Al pastor taco price at La Brisa",
+   "raw": "근거: 사진56, 사진61\n답변: The price of an Al Pastor Taco at La Brisa is $3.75.",
+   "answer": "The price of an Al Pastor Taco at La Brisa is $3.75.",
+   "cited": [
+    "r05",
+    "m06"
+   ],
+   "latency_ms": 7143.9,
+   "req_bytes": 20043,
+   "resp_bytes": 4344,
+   "usage": {
+    "promptTokenCount": 6232,
+    "candidatesTokenCount": 32,
+    "totalTokenCount": 7158,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6232
+     }
+    ],
+    "thoughtsTokenCount": 894,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N07",
+   "q": "Total for the Hilltop Burgers pickup order",
+   "raw": "근거: 사진18, 사진38\n답변: The total for the Hilltop Burgers pickup order is $28.74.",
+   "answer": "The total for the Hilltop Burgers pickup order is $28.74.",
+   "cited": [
+    "b10",
+    "r10"
+   ],
+   "latency_ms": 3642.4,
+   "req_bytes": 20053,
+   "resp_bytes": 1765,
+   "usage": {
+    "promptTokenCount": 6232,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 6503,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6232
+     }
+    ],
+    "thoughtsTokenCount": 240,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N08",
+   "q": "EV charging price per kWh",
+   "raw": "근거: 사진03\n답변: The EV charging price is $0.35 per kWh.",
+   "answer": "The EV charging price is $0.35 per kWh.",
+   "cited": [
+    "p06"
+   ],
+   "latency_ms": 4036.9,
+   "req_bytes": 20036,
+   "resp_bytes": 1460,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 23,
+    "totalTokenCount": 6389,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 137,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N09",
+   "q": "How much tax was on the Blue Lantern brunch receipt?",
+   "raw": "근거: 사진24\n답변: The tax on the receipt was $5.70.",
+   "answer": "The tax on the receipt was $5.70.",
+   "cited": [
+    "r03"
+   ],
+   "latency_ms": 4967.7,
+   "req_bytes": 20063,
+   "resp_bytes": 2023,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 6552,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "thoughtsTokenCount": 295,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "N10",
+   "q": "서울분식 김밥 얼마?",
+   "raw": "근거: 사진47\n답변: 서울분식의 김밥은 $7.99입니다.",
+   "answer": "서울분식의 김밥은 $7.99입니다.",
+   "cited": [
+    "m17"
+   ],
+   "latency_ms": 2491.9,
+   "req_bytes": 20062,
+   "resp_bytes": 1279,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 24,
+    "totalTokenCount": 6403,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 148,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D01",
+   "q": "Black sesame affogato price at Maru Cafe",
+   "raw": "근거: 사진32\n답변: The price of the Black Sesame Affogato at Maru Cafe is $7.75.",
+   "answer": "The price of the Black Sesame Affogato at Maru Cafe is $7.75.",
+   "cited": [
+    "m02"
+   ],
+   "latency_ms": 4534.7,
+   "req_bytes": 20051,
+   "resp_bytes": 2010,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 30,
+    "totalTokenCount": 6600,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 336,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D02",
+   "q": "소라 순두부 굴 순두부 가격",
+   "raw": "근거: 사진29\n답변: 소라 순두부의 굴순두부(계절 한정) 가격은 $18.99입니다.",
+   "answer": "소라 순두부의 굴순두부(계절 한정) 가격은 $18.99입니다.",
+   "cited": [
+    "m03"
+   ],
+   "latency_ms": 2073.4,
+   "req_bytes": 20081,
+   "resp_bytes": 829,
+   "usage": {
+    "promptTokenCount": 6235,
+    "candidatesTokenCount": 37,
+    "totalTokenCount": 6272,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6235
+     }
+    ],
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D03",
+   "q": "Duck confit hash at Blue Lantern",
+   "raw": "근거: 사진57\n답변: Duck Confit Hash at Blue Lantern Bistro is $24.00.",
+   "answer": "Duck Confit Hash at Blue Lantern Bistro is $24.00.",
+   "cited": [
+    "m04"
+   ],
+   "latency_ms": 2280.9,
+   "req_bytes": 20043,
+   "resp_bytes": 1512,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 6415,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 158,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D04",
+   "q": "엠버앤오크 차돌박이 추가 가격",
+   "raw": "근거: 사진01\n답변: 엠버앤오크의 차돌박이 추가 가격은 $12.99입니다.",
+   "answer": "엠버앤오크의 차돌박이 추가 가격은 $12.99입니다.",
+   "cited": [
+    "m08"
+   ],
+   "latency_ms": 2459.0,
+   "req_bytes": 20092,
+   "resp_bytes": 1251,
+   "usage": {
+    "promptTokenCount": 6236,
+    "candidatesTokenCount": 32,
+    "totalTokenCount": 6370,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6236
+     }
+    ],
+    "thoughtsTokenCount": 102,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D05",
+   "q": "용문각 삼선짬뽕 얼마야",
+   "raw": "근거: 사진59\n답변: 용문각의 삼선짬뽕은 $16.99입니다.",
+   "answer": "용문각의 삼선짬뽕은 $16.99입니다.",
+   "cited": [
+    "m11"
+   ],
+   "latency_ms": 2252.1,
+   "req_bytes": 20073,
+   "resp_bytes": 1470,
+   "usage": {
+    "promptTokenCount": 6233,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 6432,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6233
+     }
+    ],
+    "thoughtsTokenCount": 172,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D06",
+   "q": "Yuzu shio ramen price at Kaze",
+   "raw": "근거: 사진26\n답변: The price of Yuzu Shio Ramen at Kaze Ramen is $17.50.",
+   "answer": "The price of Yuzu Shio Ramen at Kaze Ramen is $17.50.",
+   "cited": [
+    "m07"
+   ],
+   "latency_ms": 4337.3,
+   "req_bytes": 20040,
+   "resp_bytes": 1663,
+   "usage": {
+    "promptTokenCount": 6233,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 6475,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6233
+     }
+    ],
+    "thoughtsTokenCount": 213,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D07",
+   "q": "Khao soi at Siam Garden — how much?",
+   "raw": "근거: 사진68\n답변: Khao Soi Chicken at Siam Garden is $17.95.",
+   "answer": "Khao Soi Chicken at Siam Garden is $17.95.",
+   "cited": [
+    "m18"
+   ],
+   "latency_ms": 2763.0,
+   "req_bytes": 20051,
+   "resp_bytes": 1298,
+   "usage": {
+    "promptTokenCount": 6233,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6340,
+    "cachedContentTokenCount": 22,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6233
+     }
+    ],
+    "cacheTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 22
+     }
+    ],
+    "thoughtsTokenCount": 82,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "D08",
+   "q": "다온 찻집 오미자차 가격",
+   "raw": "근거: 사진04\n답변: 다온 찻집의 오미자차 가격은 $6.50입니다.",
+   "answer": "다온 찻집의 오미자차 가격은 $6.50입니다.",
+   "cited": [
+    "m19"
+   ],
+   "latency_ms": 4044.7,
+   "req_bytes": 20074,
+   "resp_bytes": 1513,
+   "usage": {
+    "promptTokenCount": 6234,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 6435,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6234
+     }
+    ],
+    "thoughtsTokenCount": 172,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "A01",
+   "q": "Hanbit Kitchen Wi-Fi password",
+   "raw": "근거: 없음\n답변: The Wi-Fi password for Hanbit Kitchen is not mentioned in the provided photos.",
+   "answer": "The Wi-Fi password for Hanbit Kitchen is not mentioned in the provided photos.",
+   "cited": [],
+   "latency_ms": 2735.3,
+   "req_bytes": 20040,
+   "resp_bytes": 1541,
+   "usage": {
+    "promptTokenCount": 6231,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6409,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6231
+     }
+    ],
+    "thoughtsTokenCount": 153,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "A02",
+   "q": "Does Corner Slice validate parking?",
+   "raw": "근거: 없음\n답변: The provided photos do not contain information about whether Corner Slice validates parking.",
+   "answer": "The provided photos do not contain information about whether Corner Slice validates parking.",
+   "cited": [],
+   "latency_ms": 4391.0,
+   "req_bytes": 20046,
+   "resp_bytes": 2496,
+   "usage": {
+    "promptTokenCount": 6230,
+    "candidatesTokenCount": 22,
+    "totalTokenCount": 6588,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6230
+     }
+    ],
+    "thoughtsTokenCount": 336,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "A03",
+   "q": "Nami Sushi corkage fee",
+   "raw": "근거: 없음\n답변: There is no information about the corkage fee for Nami Sushi in the provided photos.",
+   "answer": "There is no information about the corkage fee for Nami Sushi in the provided photos.",
+   "cited": [],
+   "latency_ms": 5929.5,
+   "req_bytes": 20033,
+   "resp_bytes": 3503,
+   "usage": {
+    "promptTokenCount": 6230,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 6811,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6230
+     }
+    ],
+    "thoughtsTokenCount": 555,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "A04",
+   "q": "서울분식 예약 번호",
+   "raw": "근거: 없음\n답변: 제공된 사진에는 서울분식의 예약 번호에 대한 내용이 없습니다.",
+   "answer": "제공된 사진에는 서울분식의 예약 번호에 대한 내용이 없습니다.",
+   "cited": [],
+   "latency_ms": 3667.2,
+   "req_bytes": 20061,
+   "resp_bytes": 2078,
+   "usage": {
+    "promptTokenCount": 6230,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6512,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6230
+     }
+    ],
+    "thoughtsTokenCount": 257,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  },
+  {
+   "id": "A05",
+   "q": "Moonrise Donuts happy hour",
+   "raw": "근거: 없음\n답변: There is no information about a happy hour for Moonrise Donuts in the provided photos.",
+   "answer": "There is no information about a happy hour for Moonrise Donuts in the provided photos.",
+   "cited": [],
+   "latency_ms": 4203.4,
+   "req_bytes": 20037,
+   "resp_bytes": 2741,
+   "usage": {
+    "promptTokenCount": 6229,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 6626,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 6229
+     }
+    ],
+    "thoughtsTokenCount": 372,
+    "serviceTier": "standard"
+   },
+   "model_version": "gemini-3.8-flash"
+  }
+ ]
+}

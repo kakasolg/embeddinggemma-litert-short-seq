@@ -1,0 +1,953 @@
+{
+ "summary": {
+  "run": "run_tap_v4.json",
+  "device": "Pixel 11 Pro XL",
+  "retrieval": {
+   "r@1": "48/55",
+   "r@3": "55/55",
+   "top3_identical_to_pc": "58/60"
+  },
+  "answers": {
+   "correct": 46,
+   "cited_gold_answer_mismatch": 5,
+   "wrong_cite": 1,
+   "abstained": 2,
+   "unparsed": 1,
+   "n": 55
+  },
+  "answers_by_type": {
+   "crosslingual": "6/10",
+   "deep": "8/8",
+   "lookup": "9/12",
+   "numeric": "10/10",
+   "paraphrase": "13/15"
+  },
+  "none": {
+   "abstained_ok": 4,
+   "false_answer": 1,
+   "n": 5
+  },
+  "latency_ms": {
+   "query_embed": {
+    "p50": 61.0,
+    "p90": 66.1
+   },
+   "score_80_photos": {
+    "p50": 1.4
+   },
+   "gate": {
+    "p50": 1037.6,
+    "p90": 1170.9
+   },
+   "answer": {
+    "p50": 2565.6,
+    "p90": 3396.6
+   },
+   "store_check": {
+    "p50": 868.1,
+    "n": 53
+   },
+   "first_token": {
+    "p50": 927.6
+   },
+   "question_total": {
+    "p50": 4407.5,
+    "p90": 5417.9,
+    "max": 20489.4
+   }
+  },
+  "index": {
+   "photos": 80,
+   "ocr_ms_sum": 13546,
+   "embed_ms_sum": 4588,
+   "chunks": 124,
+   "ocr_ms_p50": 147.5,
+   "embed_ms_p50": 46.4
+  },
+  "loads_ms": {
+   "embedder": 643,
+   "llm": 2907,
+   "pss_mb_both_loaded": 2302
+  },
+  "network": {
+   "airplane_mode_start": true,
+   "airplane_mode_end": true,
+   "active_network_start": null,
+   "active_network_end": null,
+   "app_tx_bytes": 0,
+   "app_rx_bytes": 0
+  },
+  "battery": {
+   "samples": 271,
+   "unplugged_samples": 0,
+   "thermal_max": 2,
+   "level_start": 80,
+   "level_end": 80,
+   "total_s": 293,
+   "note": "USB connected for (part of) the run — battery numbers not valid"
+  }
+ },
+ "questions": [
+  {
+   "id": "L01",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3981.079558,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Maru Cafe Wi-Fi password는 latte2026 입니다.",
+   "accept": [
+    "latte2026"
+   ]
+  },
+  {
+   "id": "L02",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3610.909251,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Reservation confirmed의 Confirmation #BL-4821 입니다.",
+   "accept": [
+    "BL-4821"
+   ]
+  },
+  {
+   "id": "L03",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5349.756365,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "한빛식당은 10월 9일(금) 한글날 하루 휴무하며, 10월 10일(토)부터 정상 영업합니다.",
+   "accept": [
+    "10월 9일",
+    "Oct 9"
+   ]
+  },
+  {
+   "id": "L04",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4805.694224,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Lot B는 2 AM부터 5 AM까지 야간 주차 금지이며 위반 차량은 소유자의 비용으로 견인됩니다.",
+   "accept": [
+    "2 AM",
+    "2AM"
+   ]
+  },
+  {
+   "id": "L05",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3903.116399,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Kaze Ramen의 카드 최소 금액은 $10입니다.",
+   "accept": [
+    "$10",
+    "10 dollars"
+   ]
+  },
+  {
+   "id": "L06",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3780.734639,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "용문각 배달 최소 주문 금액은 $25입니다.",
+   "accept": [
+    "$25",
+    "25달러"
+   ]
+  },
+  {
+   "id": "L07",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4469.321792,
+   "rank": 1,
+   "outcome": "cited_gold_answer_mismatch",
+   "answer_has_accept": false,
+   "answer": "Pine Hill Bakery는 10월 20일에 오전 7시에 문을 엽니다.",
+   "accept": [
+    "7 AM",
+    "7AM",
+    "7:00"
+   ]
+  },
+  {
+   "id": "L08",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3680.0741879999996,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "예약 인원은 6명입니다.",
+   "accept": [
+    "6",
+    "six"
+   ]
+  },
+  {
+   "id": "L09",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4210.592197999999,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Maple Plaza garage의 할인 높이는 6'8\" (2.03 m)입니다.",
+   "accept": [
+    "6'8",
+    "2.03"
+   ]
+  },
+  {
+   "id": "L10",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4256.689007,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Corner Slice의 해피아워는 오후 3시부터 5시까지입니다.",
+   "accept": [
+    "3",
+    "$2"
+   ]
+  },
+  {
+   "id": "L11",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3956.3118520000003,
+   "rank": 1,
+   "outcome": "cited_gold_answer_mismatch",
+   "answer_has_accept": false,
+   "answer": "Omakase counter에 대한 정보는 확인됩니다.",
+   "accept": [
+    "$50"
+   ]
+  },
+  {
+   "id": "L12",
+   "type": "lookup",
+   "abstained": false,
+   "same_top3_as_pc": false,
+   "total_ms": 2808.3559960000002,
+   "rank": 1,
+   "outcome": "unparsed",
+   "answer_has_accept": true,
+   "answer": "Level 5 dishes are not refundable",
+   "accept": [
+    "not refundable",
+    "no refund",
+    "환불 불가"
+   ]
+  },
+  {
+   "id": "P01",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3811.7962169999996,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "First 90 min FREE with validation",
+   "accept": [
+    "90"
+   ]
+  },
+  {
+   "id": "P02",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4407.481739,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Friday, Oct 30 6:00 PM에 예약되어 있습니다.",
+   "accept": [
+    "6:00",
+    "6 PM",
+    "6PM"
+   ]
+  },
+  {
+   "id": "P03",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3396.691003,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "4 hour maximum while charging",
+   "accept": [
+    "4 hour",
+    "4시간"
+   ]
+  },
+  {
+   "id": "P04",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3695.6976350000004,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Password: latte2026",
+   "accept": [
+    "MARU_GUEST",
+    "latte2026"
+   ]
+  },
+  {
+   "id": "P05",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3702.984327,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Corkage fee $20 per bottle",
+   "accept": [
+    "$20"
+   ]
+  },
+  {
+   "id": "P06",
+   "type": "paraphrase",
+   "abstained": true,
+   "same_top3_as_pc": true,
+   "total_ms": 1017.1554550000001,
+   "rank": 1,
+   "outcome": "abstained",
+   "answer_has_accept": false,
+   "answer": "(기권)",
+   "accept": [
+    "closed",
+    "휴무"
+   ]
+  },
+  {
+   "id": "P07",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 6629.716071000001,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "MAPLE PLAZA GARAGE는 6'8\" (2.03 m)의 높이 제한이 있으며, 오버사이즈 차량은 표면 주차장을 사용합니다.",
+   "accept": [
+    "6'8",
+    "2.03"
+   ]
+  },
+  {
+   "id": "P08",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4311.28744,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Pickup Sat, Oct 31 8:00 AM",
+   "accept": [
+    "8:00",
+    "8 AM",
+    "Oct 31"
+   ]
+  },
+  {
+   "id": "P09",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3594.768479,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Estimated wait 25 min",
+   "accept": [
+    "25"
+   ]
+  },
+  {
+   "id": "P10",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4147.080537,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Sat, Nov 7 8:00 PM",
+   "accept": [
+    "8:00",
+    "8 PM"
+   ]
+  },
+  {
+   "id": "P11",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5417.882600000001,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "남긴 고기 1인분당 $10.00을 내야 합니다.",
+   "accept": [
+    "$10",
+    "10.00",
+    "10달러"
+   ]
+  },
+  {
+   "id": "P12",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4362.478074,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "생일 당일 방문 시 디저트 무료",
+   "accept": [
+    "디저트",
+    "dessert"
+   ]
+  },
+  {
+   "id": "P13",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4184.099478,
+   "rank": 2,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "배달비는 $4.99입니다.",
+   "accept": [
+    "4.99"
+   ]
+  },
+  {
+   "id": "P14",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 3789.0055380000003,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "24시 이후 출차 불가",
+   "accept": [
+    "24",
+    "자정",
+    "midnight"
+   ]
+  },
+  {
+   "id": "P15",
+   "type": "paraphrase",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4200.317057,
+   "rank": 1,
+   "outcome": "cited_gold_answer_mismatch",
+   "answer_has_accept": false,
+   "answer": "주문 마감은 14:30입니다.",
+   "accept": [
+    "15:00",
+    "3시",
+    "3 PM"
+   ]
+  },
+  {
+   "id": "C01",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5216.762138,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "메이플 플라자 주차 하루 최대 요금은 $18입니다.",
+   "accept": [
+    "$18",
+    "18달러"
+   ]
+  },
+  {
+   "id": "C02",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4187.990485,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "예약 인원은 4명입니다.",
+   "accept": [
+    "4",
+    "four"
+   ]
+  },
+  {
+   "id": "C03",
+   "type": "crosslingual",
+   "abstained": true,
+   "same_top3_as_pc": true,
+   "total_ms": 1087.698268,
+   "rank": 1,
+   "outcome": "abstained",
+   "answer_has_accept": false,
+   "answer": "(기권)",
+   "accept": [
+    "9:00",
+    "9 AM",
+    "오전 9"
+   ]
+  },
+  {
+   "id": "C04",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4509.459621,
+   "rank": 1,
+   "outcome": "cited_gold_answer_mismatch",
+   "answer_has_accept": false,
+   "answer": "Level 5의 음식은 환불되지 않습니다.",
+   "accept": [
+    "not refundable",
+    "환불 안",
+    "환불 불가",
+    "안 돼"
+   ]
+  },
+  {
+   "id": "C05",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4610.954402,
+   "rank": 1,
+   "outcome": "cited_gold_answer_mismatch",
+   "answer_has_accept": false,
+   "answer": "카페 와이파이 이름은 MARU GUEST 입니다.",
+   "accept": [
+    "MARU_GUEST"
+   ]
+  },
+  {
+   "id": "C06",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4966.766212,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "반려동물은 테라스석만 가능하며 실내 동반은 불가합니다.",
+   "accept": [
+    "terrace",
+    "테라스"
+   ]
+  },
+  {
+   "id": "C07",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4404.402221,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "영수증 지참 시 2시간 무료이다.",
+   "accept": [
+    "2 hour",
+    "2시간"
+   ]
+  },
+  {
+   "id": "C08",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5472.324498,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "한빛식당은 10월 9일(금)에 하루 휴무합니다.",
+   "accept": [
+    "10월 9일",
+    "Oct 9",
+    "October 9"
+   ]
+  },
+  {
+   "id": "C09",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4266.759518999999,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "예약은 3명입니다.",
+   "accept": [
+    "3",
+    "three"
+   ]
+  },
+  {
+   "id": "C10",
+   "type": "crosslingual",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4575.331258,
+   "rank": 2,
+   "outcome": "wrong_cite",
+   "answer_has_accept": true,
+   "answer": "Delivery fee는 $4.99입니다.",
+   "accept": [
+    "4.99"
+   ]
+  },
+  {
+   "id": "N01",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5161.627709,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Misugaru Latte의 가격은 $6.25입니다.",
+   "accept": [
+    "6.25"
+   ]
+  },
+  {
+   "id": "N02",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5521.933836,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "용문각 탕수육 (대) 가격은 $28.99입니다.",
+   "accept": [
+    "28.99"
+   ]
+  },
+  {
+   "id": "N03",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4644.061997999999,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "디너 A Dinner A $36.99",
+   "accept": [
+    "36.99"
+   ]
+  },
+  {
+   "id": "N04",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4287.325412,
+   "rank": 2,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "TOTAL $49.68",
+   "accept": [
+    "49.68"
+   ]
+  },
+  {
+   "id": "N05",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4809.818547999999,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Tip으로 남긴 금액은 $3.50입니다.",
+   "accept": [
+    "3.50"
+   ]
+  },
+  {
+   "id": "N06",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4696.808883,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Al Pastor Taco의 가격은 $3.75입니다.",
+   "accept": [
+    "3.75"
+   ]
+  },
+  {
+   "id": "N07",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5338.369045,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Total for the Hilltop Burgers pickup order는 $28.74입니다.",
+   "accept": [
+    "28.74"
+   ]
+  },
+  {
+   "id": "N08",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4714.498907,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "EV charging price per kWh는 $0.35 per kWh이다.",
+   "accept": [
+    "0.35"
+   ]
+  },
+  {
+   "id": "N09",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4545.555812,
+   "rank": 3,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Tax는 $5.70이었습니다.",
+   "accept": [
+    "5.70"
+   ]
+  },
+  {
+   "id": "N10",
+   "type": "numeric",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4881.762891,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "서울분식 김밥은 $7.99입니다.",
+   "accept": [
+    "7.99"
+   ]
+  },
+  {
+   "id": "D01",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5077.035894,
+   "rank": 2,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Black Sesame Affogato의 가격은 $7.75이다.",
+   "accept": [
+    "7.75"
+   ]
+  },
+  {
+   "id": "D02",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 20489.371030000002,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "소라 순두부의 가격은 기본 순두부 $15.99, 해물 순두부 $17.49, 소고기 순두부 $16.99, 돼지고기 순두부 $16.49, 버섯 순두부 $15.99, 햄 치즈 순두부 $16.49, 만두 순두부 $16.49, 김치 순두부 $15.99, 순두부+ 갈비 콤보 $27.99, 순두부+ 불고기 콤보 $25.99, 순두부 + 고등어 콤보 $24.99, 계란 추가 $1.00, 공기밥 추가 $2.50, 굴순두부(계절 한정) $18.99이다.",
+   "accept": [
+    "18.99"
+   ]
+  },
+  {
+   "id": "D03",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4846.514313,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Duck Confit Hash는 $24.00입니다.",
+   "accept": [
+    "24"
+   ]
+  },
+  {
+   "id": "D04",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5001.682645,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "차돌박이 추가 가격은 $12.99입니다.",
+   "accept": [
+    "12.99"
+   ]
+  },
+  {
+   "id": "D05",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5107.643676,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "용문각 삼선짬뽕은 16.99입니다.",
+   "accept": [
+    "16.99"
+   ]
+  },
+  {
+   "id": "D06",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 5059.258825,
+   "rank": 2,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Yuzu Shio Ramen의 가격은 $17.50입니다.",
+   "accept": [
+    "17.50",
+    "17.5"
+   ]
+  },
+  {
+   "id": "D07",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4912.990258,
+   "rank": 2,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "Khao Soi Chicken은 $17.95입니다.",
+   "accept": [
+    "17.95"
+   ]
+  },
+  {
+   "id": "D08",
+   "type": "deep",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 4976.581873,
+   "rank": 1,
+   "outcome": "correct",
+   "answer_has_accept": true,
+   "answer": "오미자차의 가격은 $6.50입니다.",
+   "accept": [
+    "6.50",
+    "6.5"
+   ]
+  },
+  {
+   "id": "A01",
+   "type": "none",
+   "abstained": true,
+   "same_top3_as_pc": true,
+   "total_ms": 1259.063694,
+   "outcome": "abstained_ok",
+   "answer": "(기권)",
+   "accept": []
+  },
+  {
+   "id": "A02",
+   "type": "none",
+   "abstained": true,
+   "same_top3_as_pc": true,
+   "total_ms": 1074.711106,
+   "outcome": "abstained_ok",
+   "answer": "(기권)",
+   "accept": []
+  },
+  {
+   "id": "A03",
+   "type": "none",
+   "abstained": true,
+   "same_top3_as_pc": true,
+   "total_ms": 1171.771844,
+   "outcome": "abstained_ok",
+   "answer": "(기권)",
+   "accept": []
+  },
+  {
+   "id": "A04",
+   "type": "none",
+   "abstained": true,
+   "same_top3_as_pc": false,
+   "total_ms": 1154.711194,
+   "outcome": "abstained_ok",
+   "answer": "(기권)",
+   "accept": []
+  },
+  {
+   "id": "A05",
+   "type": "none",
+   "abstained": false,
+   "same_top3_as_pc": true,
+   "total_ms": 6182.355894,
+   "outcome": "false_answer",
+   "answer": "Corner Slice의 해피아워는 오후 3시부터 5시까지이며, 슬라이스 한 개당 2달러 할인입니다.",
+   "accept": []
+  }
+ ]
+}

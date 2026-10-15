@@ -24,3 +24,11 @@ __pycache__/
 venv/
 .DS_Store
 Thumbs.db
+
+# Android demo build
+android/local.properties
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+*.apk
