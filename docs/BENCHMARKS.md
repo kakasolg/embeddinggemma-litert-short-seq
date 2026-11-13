@@ -194,7 +194,9 @@ The timing covers the whole embed call: filling the input buffers, running the m
 
 ## Caveats
 
-- One device, CPU only. GPU/NPU delegates were not measured.
+- The tables in this document are from one device (Pixel 11 Pro XL) on the CPU with `Interpreter`. The later
+  `CompiledModel` check (Pixel 11 Pro XL and Galaxy Z Fold4) and the GPU results (Galaxy Z Fold4: the q8 files do not
+  compile; use the CPU) are in the README's [Usage](../README.md#usage) section. NPU delegates were not measured.
 - PC CPU timings are not reported, because the models ran concurrently during the PC evaluation.
 - STS and retrieval scores come from four tasks in two languages. They are meant to show conversion fidelity,
   not general model quality.
