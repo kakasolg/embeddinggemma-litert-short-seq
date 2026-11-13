@@ -351,8 +351,18 @@ print(float(q @ d))
 
 **Android: use `CompiledModel`, not `Interpreter`.** With LiteRT 2.1.5 the classic `Interpreter` ignores the thread
 count for XNNPACK and runs on one core. `CompiledModel` with `CpuOptions(4 threads)` gives bit-identical vectors and was
-1.3–2.8× faster on a Pixel 11 Pro XL and a Galaxy Z Fold4 (seq64: 20–25 ms vs 57 ms on the Pixel). The GPU path does not
-compile for these files (int64 inputs).
+1.3–2.8× faster on a Pixel 11 Pro XL and a Galaxy Z Fold4 (seq64: 20–25 ms vs 57 ms on the Pixel).
+
+**GPU: use the CPU.** Checked on a Galaxy Z Fold4 (Adreno 730) with LiteRT 2.1.5 and again with 2.3.2
+(`litert-gpu:2.3.2`), FP16 and FP32 precision:
+
+- These q8 files fail with `Failed to compile model` (the GPU graph builder rejects an INT64 scalar constant from the
+  int64 `ids`/`mask` inputs). It is a normal error, so "try GPU, fall back to CPU" works. Re-converting with int32
+  inputs may fix it; not tested.
+- Even where the GPU path does work, it does not pay off. The official mixed-precision
+  `litert-community/embeddinggemma-300m` seq256 file compiles on the GPU, but at the default FP16 precision every
+  output value is `NaN` (23,040 of 23,040 on 2.3.2). Forcing FP32 fixes it (cosine 0.9988–0.9993 vs CPU) but is
+  slower than 4-thread CPU on the same file: 135 ms vs 98–108 ms median.
 
 ### ⚠️ Truncation: longer inputs are cut silently
 
@@ -453,6 +463,10 @@ done
 The converter writes `embeddinggemma-300m_seq{64,256}_q8.tflite`. The converter's int4 options
 (`dynamic_int4_block32/128`) give 161–175 MB files. They were evaluated and not released: quality was lower on all
 four tasks (−0.005 to −0.023), and they ran slower than int8 on the phone (see `docs/BENCHMARKS.md`).
+Do not load them on the GPU: `CompiledModel.create(…, Accelerator.GPU)` aborts the whole process instead of returning
+an error, so an app cannot catch it and fall back. On LiteRT 2.3.2 the log says `LOG(FATAL)` `EMBEDDING_LOOKUP: Use
+external weights for blockwise quantization`; on 2.1.5 it is a `bad_any_cast` SIGABRT. Reported as
+[google-ai-edge/LiteRT#11400](https://github.com/google-ai-edge/LiteRT/issues/11400).
 
 ### Reproducing the benchmarks
 
@@ -501,7 +515,8 @@ requirements-*.txt           pinned Python environments
 - 2.6 GB of models on the phone (Gemma 4 E2B 2.58 GB + EmbeddingGemma 314 MB).
 - The EmbeddingGemma files have a fixed length: inputs over 64 / 256 tokens are truncated silently (see above). Each is
   ~314 MB, mostly the 262,144 × 768 vocabulary table. Benchmarks cover Korean and English only; Matryoshka output
-  truncation (512/256/128) was not evaluated. Their GPU path does not compile; NPU delegates and iOS were not tested.
+  truncation (512/256/128) was not evaluated. Their GPU path does not compile (LiteRT 2.1.5 and 2.3.2, one Adreno
+  device; see Usage); NPU delegates and iOS were not tested.
 
 ## Acknowledgements
 
