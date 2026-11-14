@@ -135,6 +135,35 @@ So: for sentence similarity, 256 or even 128 dimensions cost nothing measurable 
 to free with seq256 documents; 256 halves the index again for about 0.02 nDCG@10. Only the index shrinks — the model
 file and the time per text do not change.
 
+## EmbeddingGemma 2 for comparison
+
+Should you use EmbeddingGemma 2 (`google/embeddinggemma-2`) instead? Same four tasks, same texts, same model-card
+prompts and the same truncation lengths, both models in PyTorch on a PC (`python scripts/eval_eg2_compare.py`, raw
+numbers in [`results/eg2_compare_pc.json`](../results/eg2_compare_pc.json)). The files in this repo are conversions
+of the 300M model only; there is no EmbeddingGemma 2 file here. Both tokenizers give the same lengths on these texts
+(median 146 tokens, 66.9% over 64).
+
+EmbeddingGemma 2 minus EmbeddingGemma 300M (95% paired bootstrap):
+
+| Input length, dimensions | KorSTS | STSBenchmark | Ko-StrategyQA | SciFact |
+|---|---|---|---|---|
+| 64, 768 | −0.009 [−0.020, +0.003] | −0.007 [−0.015, +0.001] | −0.003 [−0.016, +0.010] | **+0.047** [+0.015, +0.078] |
+| 64, 256 | −0.008 [−0.021, +0.004] | −0.010 [−0.019, −0.001] | **+0.019** [+0.005, +0.034] | **+0.045** [+0.011, +0.079] |
+| 64, 128 | −0.012 [−0.025, +0.002] | −0.010 [−0.020, −0.001] | −0.007 [−0.026, +0.014] | +0.010 [−0.032, +0.049] |
+| 256, 768 | −0.009 [−0.020, +0.002] | −0.007 [−0.015, +0.001] | −0.004 [−0.016, +0.010] | **+0.069** [+0.040, +0.098] |
+| 256, 256 | −0.009 [−0.021, +0.003] | −0.010 [−0.019, −0.001] | +0.011 [−0.004, +0.025] | **+0.062** [+0.027, +0.094] |
+| 256, 128 | −0.012 [−0.026, +0.001] | −0.010 [−0.020, −0.001] | −0.005 [−0.024, +0.015] | **+0.046** [+0.012, +0.083] |
+| full, 768 | −0.009 [−0.020, +0.002] | −0.007 [−0.015, +0.001] | −0.003 [−0.016, +0.010] | **+0.061** [+0.034, +0.088] |
+
+- **English scientific retrieval (SciFact):** EmbeddingGemma 2 is clearly better, +0.05 to +0.07 nDCG@10 at 768 and
+  256 dimensions.
+- **Korean retrieval (Ko-StrategyQA):** no measurable difference at 768. At 256 dimensions EmbeddingGemma 2 holds up
+  better (+0.019 with 64-token inputs).
+- **Sentence similarity (STS):** EmbeddingGemma 2 is about 0.01 lower; at 256 and 128 dimensions the STSBenchmark
+  interval is below 0.
+
+Public benchmarks only. Check on your own data before switching: the gain here is concentrated in one English task.
+
 ## On-device
 
 **Device:** Pixel 11 Pro XL (Tensor G6), LiteRT `Interpreter` from Kotlin, CPU with 4 threads requested, phone
