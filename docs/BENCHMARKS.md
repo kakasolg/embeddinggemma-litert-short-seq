@@ -102,6 +102,39 @@ Chunks repeat the `title: … | text: ` prefix and do not overlap. With 64-token
 chunks for 14,434 documents (about 5.7 per document). Five documents whose title alone exceeds 64 tokens produce no
 chunk and are scored as missing (`python scripts/eval_public_bench.py chunk 64`).
 
+## Shorter vectors (Matryoshka)
+
+EmbeddingGemma was trained so that the first 512, 256 or 128 of its 768 output values also work as an embedding.
+Keep the first *d* values and L2-normalize again. Same texts and prompts as above; the files here, with the original
+at the same input length for reference (`python scripts/eval_matryoshka.py`, raw numbers in
+[`results/matryoshka_pc.json`](../results/matryoshka_pc.json)).
+
+| File, dimensions | KorSTS | STSBenchmark | Ko-StrategyQA | SciFact | Bytes per vector (float32) |
+|---|---|---|---|---|---|
+| seq256 q8, 768 | 0.8086 | 0.8817 | 0.8066 | 0.7758 | 3,072 |
+| seq256 q8, 512 | 0.8128 | 0.8843 | 0.8028 | 0.7754 | 2,048 |
+| seq256 q8, 256 | 0.8103 | 0.8834 | 0.7873 | 0.7606 | 1,024 |
+| seq256 q8, 128 | 0.8054 | 0.8789 | 0.7542 | 0.7359 | 512 |
+| seq64 q8, 768 | 0.8086 | 0.8817 | 0.7669 | 0.6791 | 3,072 |
+| seq64 q8, 512 | 0.8129 | 0.8843 | 0.7634 | 0.6635 | 2,048 |
+| seq64 q8, 256 | 0.8102 | 0.8834 | 0.7428 | 0.6544 | 1,024 |
+| seq64 q8, 128 | 0.8052 | 0.8789 | 0.7098 | 0.6207 | 512 |
+
+Change from 768 dimensions (95% paired bootstrap):
+
+- **STS:** 512 is slightly *better* on both tasks (+0.004 KorSTS, +0.003 STSBenchmark, intervals above 0). 256 is
+  within ±0.005 of 768. 128 loses about 0.003 (intervals include 0).
+- **Retrieval, seq256:** 512 costs 0.000–0.004 (intervals include 0). 256 costs 0.015–0.019 nDCG@10
+  (Ko-StrategyQA interval below 0). 128 costs 0.040–0.052.
+- **Retrieval, seq64:** losses are larger. 512 costs 0.004 (Ko-StrategyQA) and 0.016 (SciFact, interval below 0);
+  256 costs 0.024–0.025; 128 costs 0.057–0.058.
+- **The conversion stays faithful at every size.** The q8 files minus the original at the same length and the same
+  dimensions are within ±0.005, except seq64 on SciFact at 128 dimensions (−0.007, interval includes 0).
+
+So: for sentence similarity, 256 or even 128 dimensions cost nothing measurable here. For retrieval, 512 is close
+to free with seq256 documents; 256 halves the index again for about 0.02 nDCG@10. Only the index shrinks — the model
+file and the time per text do not change.
+
 ## On-device
 
 **Device:** Pixel 11 Pro XL (Tensor G6), LiteRT `Interpreter` from Kotlin, CPU with 4 threads requested, phone

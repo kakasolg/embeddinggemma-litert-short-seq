@@ -422,6 +422,10 @@ Differences from the original at the same length (paired bootstrap, 95% interval
 
 Mean cosine to the original is 0.9985 for both files (minimum 0.9934, 1st percentile 0.9976).
 
+**Shorter vectors:** keeping the first 512 or 256 of the 768 values (then L2-normalizing) works with these files
+as with the original. For STS it costs nothing measurable; for retrieval with seq256, 512 dimensions lose 0.000–0.004
+nDCG@10 and 256 lose 0.015–0.019. Table: [`docs/BENCHMARKS.md`](docs/BENCHMARKS.md#shorter-vectors-matryoshka).
+
 For reference, the existing `litert-community/embeddinggemma-300m` seq256 file (179 MB, mixed precision) scores
 0.8005 / 0.8806 / 0.7994 / 0.7597 on the same setup, with mean cosine 0.964 to the original. It is smaller and
 supports longer inputs. The files here trade size for closeness to the original and short fixed lengths.
@@ -484,6 +488,10 @@ python scripts/eval_public_bench.py score
 
 ```bash
 python scripts/eval_public_bench.py chunk 64
+```
+
+```bash
+python scripts/eval_matryoshka.py
 ```
 
 The device steps are described in `docs/BENCHMARKS.md`. The datasets are downloaded through MTEB and are not
